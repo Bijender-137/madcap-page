@@ -38,9 +38,9 @@ const Mynav = () => {
           <p className="fs_sm text-white text-center mt-5 pt-2">
             {currentTime}
           </p>
-          <p className="fs_sm text-white text-center "> {currentDate}</p>
-          <p className="fs_md text-white fw-normal text-center ff_Liberty mt-5">
-            no venture, <br /> no victory
+          <p className="fs_sm text-white text-center fw-medium"> {currentDate}</p>
+          <p className="fs_md text-white fw-normal ps-4 ff_Liberty mt-4 pt-2">
+            no venture, <span className="d-block"> no victory</span>
           </p>
         </div>
         <img
@@ -48,11 +48,10 @@ const Mynav = () => {
           src={CoffeeImg}
           alt="coffee_img"
         />
-
         <Container className="custom_container px-0 min_h_100 ">
           {/* navbaar */}
           <nav className="w-100">
-            <div className="bg_secondary py-2 pb-md-3 px-16 px-md-30">
+            <div className="bg_secondary py-2 pb-md-3 px-16  px-md-30">
               <div className="d-flex justify-content-between align-items-center">
                 <div className={`${menu ? "show-nav" : "nav-fix"}`}>
                   <ul className="d-flex ps-0 mb-0 gap-2 gap-sm-3 gap-md-4 flex-column flex-md-row align-items-center navActive">
@@ -154,12 +153,12 @@ const Mynav = () => {
           {/* content */}
           <div className="bg_primary bg-height"></div>
           <div className="bg_secondary py_3">
-            <div className="bg_red py_3 d-flex align-items-center justify-content-between px-16 px-md-30">
+            <div className="bg_red py-1 d-flex align-items-center justify-content-between px-16 pe-10 px-md-30">
               <h1 className="ff_brothers fs_lg fw-bold text-white text-uppercase white_space mb-0 pb-1">
                 first ever comic crypto
               </h1>
               <div className="d-flex align-items-center">
-                <h2 className=" text-uppercase fs_md fw-normal ff_Badabb mb-0 text-after position-relative z-2 ps-2 ps-md-3">
+                <h2 className=" text-uppercase fs_md fw-normal ff_Badabb mb-0 text-after position-relative z-2 ps-2 ps-md-3 pt-1">
                   comic adventures
                 </h2>
                 <h2 className="text-white text-uppercase fw-normal fs_2sm ff_CrimeFighter mb-0 text-after1 position-relative z-2 ps-1 ps-sm-2">
@@ -180,11 +179,11 @@ const Mynav = () => {
             <img className="w-100 d-md-none" src={MobileView} alt="HeroImg" />
             {/* footer */}
           </div>
-          <div className="yellow_border w-100 bg_height"></div>
+          {/* footer */}
+          <div className="yellow_border w-100"></div>
           <div className="bg_blue w-100 pt-1"></div>
-
           <div className=" bg_red text-center">
-            <h2 className="fw-normal fs_xxl letter_spa ff_brothers mb-0 py-2">
+            <h2 className="fw-normal fs_xxl letter_spa ff_Bright letter_spacing mb-0 py-2">
               Madcap's Mission: Turning Everyday Investors into crypto heros!
             </h2>
           </div>
