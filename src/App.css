@@ -30,27 +30,6 @@
   margin-right: -12px;
 }
 
-/* .bg_dark_img {
-  background-image: url("./assets/img/png/dark_curve_img.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-.bg_yellow_img {
-  background-image: url("./assets/img/png/yellow_curve_img.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-} */
-
-/* .btn_dark_padding {
-  padding: 11px 18px 8px 20px;
-}
-
-.btn_yellow_padding {
-  padding: 11px 14px 8px 14px;
-} */
-
-
 
 /* hero section */
 .hero_img_w {
@@ -90,12 +69,4 @@
 
 .ltr_sp_6 {
   letter-spacing: 0.116px;
-}
-
-/* media quarry */
-@media (min-width:1199.98) {
- 
-
-  
-
 }
