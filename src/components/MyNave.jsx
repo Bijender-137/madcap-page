@@ -39,7 +39,7 @@ const Mynav = () => {
             {currentTime}
           </p>
           <p className="fs_sm text-white text-center fw-medium"> {currentDate}</p>
-          <p className="fs_md text-white fw-normal ps-4 ff_Liberty mt-4 pt-2">
+          <p className="fs_md text-white fw-normal ps-4 ff_Liberty mt-4 pt-2 line-h-24">
             no venture, <span className="d-block"> no victory</span>
           </p>
         </div>
