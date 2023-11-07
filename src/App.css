@@ -8,6 +8,8 @@
 
 .custom_container {
   max-width: 800px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .bg_img_hero {
