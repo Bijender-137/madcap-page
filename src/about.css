@@ -1,4 +1,4 @@
-.hero_bg ::after {
+/* .hero_bg ::after {
     position: absolute;
     content: "";
     height: 100%;
@@ -6,9 +6,13 @@
     background: url("./assets/img/webp/bg_hero.webp") no-repeat;
     background-size: cover;
     background-position: 100%, 100%;
-}
+} */
 
 .bg_box_hero {
     width: 206.699px;
     height: 105.276px;
+}
+
+.text-shadow {
+    text-shadow: -8px 8px 0px #000;
 }
