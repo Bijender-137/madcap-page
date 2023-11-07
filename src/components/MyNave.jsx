@@ -6,6 +6,7 @@ import HeroImg from "../assets/img/webp/groping_hero.webp";
 import CoffeeImg from "../assets/img/webp/Coffee_img.webp";
 import line from "../assets/img/svg/line.svg";
 import MobileView from "../assets/img/webp/mobile_Version.webp";
+import Hero from "./Hero";
 
 const Mynav = () => {
   const [menu, setMenu] = useState(false);
@@ -171,12 +172,7 @@ const Mynav = () => {
           <div className="bg_secondary pt-1"></div>
           {/* hero section */}
           <div className="bg_clr_blue z-3 position-relative">
-            <img
-              className="w-100 d-none d-md-block"
-              src={HeroImg}
-              alt="HeroImg"
-            />
-            <img className="w-100 d-md-none" src={MobileView} alt="HeroImg" />
+            <Hero />
             {/* footer */}
           </div>
           {/* footer */}
