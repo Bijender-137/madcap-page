@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import { CrossIcon, DiscrodIcon, MenuIcon, TwitterIcon } from "./common/Icon";
-import yellowColor from "../assets/img/png/yellow_curve_img.png";
-import HeroImg from "../assets/img/png/groping_hero.png";
+
+import HeroImg from "../assets/img/webp/groping_hero.webp";
 import CoffeeImg from "../assets/img/webp/Coffee_img.webp";
 import line from "../assets/img/svg/line.svg";
-import MobileView from "../assets/img/png/mobile_Version.png"
+import MobileView from "../assets/img/webp/mobile_Version.webp"
 
 const Mynav = () => {
   const [menu, setMenu] = useState(false);
@@ -36,9 +36,9 @@ const Mynav = () => {
       <section className="bg_img_hero min_h_100 position-relative">
         <div className="mobile_img position-absolute mobile_img_w w-100 top-50 translate-middle-y rotate d-none d-xl-block mobile_img_position">
           <p className="fs_sm text-white text-center mt-5 pt-2">
-            Time: {currentTime}
+           {currentTime}
           </p>
-          <p className="fs_sm text-white text-center ">Date: {currentDate}</p>
+          <p className="fs_sm text-white text-center "> {currentDate}</p>
           <p className="fs_md text-white fw-normal text-center ff_Liberty mt-5">
             no venture, <br /> no victory
           </p>
@@ -62,7 +62,7 @@ const Mynav = () => {
                         href="#"
                       >
                         HOME
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="d-md-none">
                       <img src={line} alt="" />
@@ -72,8 +72,8 @@ const Mynav = () => {
                         className="text-white text-decoration-none fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
                         href="#"
                       >
-                        MADCAP{" "}
-                      </a>{" "}
+                        MADCAP
+                      </a>
                     </li>
                     <li className="d-md-none">
                       <img src={line} alt="" />
@@ -83,8 +83,8 @@ const Mynav = () => {
                         className="text-white text-decoration-none fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
                         href="#"
                       >
-                        Tokenomics{" "}
-                      </a>{" "}
+                        Tokenomics
+                      </a>
                     </li>
                     <li className="d-md-none">
                       <img src={line} alt="" />
@@ -95,7 +95,7 @@ const Mynav = () => {
                         href="#"
                       >
                         Road Map
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="d-md-none">
                       <img src={line} alt="" />
@@ -106,7 +106,7 @@ const Mynav = () => {
                         href="#"
                       >
                         Staking
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="d-md-none">
                       <img src={line} alt="" />
@@ -117,7 +117,7 @@ const Mynav = () => {
                         href="#"
                       >
                         NFT
-                      </a>{" "}
+                      </a>
                     </li>
                     <li className="d-md-none">
                       <img src={line} alt="" />
@@ -128,7 +128,7 @@ const Mynav = () => {
                         href="#"
                       >
                         Whitepaper
-                      </a>{" "}
+                      </a>
                     </li>
                     <li
                       className="d-md-none"
@@ -145,7 +145,7 @@ const Mynav = () => {
                 </div>
                 <div className="d-flex align-items-center gap-4">
                   <a href="#" className="pb-1">
-                    {" "}
+                    
                     <TwitterIcon />
                   </a>
                   <a href="#" className="pb-1">
@@ -179,9 +179,11 @@ const Mynav = () => {
             <img className="w-100 d-none d-md-block" src={HeroImg} alt="HeroImg" />
             <img className="w-100 d-md-none" src={MobileView} alt="HeroImg" />
             {/* footer */}
-            {/* <div className="yellow_border w-100 bg_height"></div> */}
 
           </div>
+          <div className="yellow_border w-100 bg_height"></div>
+          <div className="bg_blue w-100 pt-1"></div>
+
           <div className=" bg_red text-center">
             <h2 className="fw-normal fs_xxl letter_spa ff_brothers mb-0 py-2">
               Madcap's Mission: Turning Everyday Investors into crypto heros!
@@ -190,9 +192,9 @@ const Mynav = () => {
           <div className="bg_secondary bg-height w-100"></div>
           <div className="yellow_border w-100"></div>
           <div className="bg-black">
-            <p className="text-white text-center py-2 fs_xs ff_MangaMaster fw-normal ltr_sp_6">
+            <p className="text-white text-center py-2 fs_xs ff_MangaMaster fw-normal ltr_sp_6 mb-0">
               all rights reserved for the Comicoin {year}
-              <span className="ps-5">contact us</span>
+              <span className="ps-5 cursor_pointer">contact us</span>
             </p>
           </div>
         </Container>
