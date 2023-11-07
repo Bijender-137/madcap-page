@@ -157,9 +157,9 @@ const Mynav = () => {
           </nav>
           {/* content */}
           <div className="bg_primary bg-height"></div>
-          <div className="bg_secondary py-1">
-            <div className="bg_red py-1 d-flex align-items-center justify-content-between ps-3 pe-sm-3 pe-2">
-              <h1 className="ff_brothers fs_lg fw-bold text-white text-uppercase white_space mb-0">
+          <div className="bg_secondary py_3">
+            <div className="bg_red py_3 d-flex align-items-center justify-content-between ps-3 pe-sm-3 pe-2">
+              <h1 className="ff_brothers fs_lg fw-bold text-white text-uppercase white_space mb-0 pb-1">
                 first ever comic crypto
               </h1>
               <div className="d-flex align-items-center">
@@ -173,19 +173,22 @@ const Mynav = () => {
             </div>
           </div>
           <div className="bg_primary bg-height"></div>
+          <div className="bg_secondary pt-1"></div>
           {/* hero section */}
           <div className="bg_clr_blue z-3 position-relative">
             <img className="w-100 d-none d-md-block" src={HeroImg} alt="HeroImg" />
             <img className="w-100 d-md-none" src={MobileView} alt="HeroImg" />
             {/* footer */}
-            <div className="yellow_border w-100 mt-3"></div>
-            <div className=" bg_red my-1 text-center">
-              <h2 className="fw-normal fs_xxl letter_spa ff_brothers py-2">
-                Madcap's Mission: Turning Everyday Investors into crypto heros!
-              </h2>
-            </div>
-            <div className="yellow_border w-100"></div>
+            {/* <div className="yellow_border w-100 bg_height"></div> */}
+
           </div>
+          <div className=" bg_red text-center">
+            <h2 className="fw-normal fs_xxl letter_spa ff_brothers mb-0 py-2">
+              Madcap's Mission: Turning Everyday Investors into crypto heros!
+            </h2>
+          </div>
+          <div className="bg_secondary bg-height w-100"></div>
+          <div className="yellow_border w-100"></div>
           <div className="bg-black">
             <p className="text-white text-center py-2 fs_xs ff_MangaMaster fw-normal ltr_sp_6">
               all rights reserved for the Comicoin {year}

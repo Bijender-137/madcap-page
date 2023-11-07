@@ -177,6 +177,9 @@
 .bg-height {
   height: 2.57px;
 }
+.py_3{
+  padding: 3px 0px;
+}
 
 
 @media (max-width:768px) {
@@ -241,7 +244,7 @@
     --fs-sm: 16px;
     --fs-2sm: 18px;
     --fs-md: 13px;
-    --fs-lg: 16px;
+    --fs-lg: 24px;
     --fs_xxl: 18px;
     --fs-xl: 45px;
 
