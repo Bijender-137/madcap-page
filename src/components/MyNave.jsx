@@ -52,7 +52,7 @@ const Mynav = () => {
         <Container className="custom_container px-0 min_h_100 ">
           {/* navbaar */}
           <nav className="w-100">
-            <div className="bg_secondary py-2 pb-md-3 px-16 px-md-30">
+            <div className="bg_secondary py-2 pb-md-3 px-16  px-md-30">
               <div className="d-flex justify-content-between align-items-center">
                 <div className={`${menu ? "show-nav" : "nav-fix"}`}>
                   <ul className="d-flex ps-0 mb-0 gap-2 gap-sm-3 gap-md-4 flex-column flex-md-row align-items-center navActive">
@@ -158,12 +158,12 @@ const Mynav = () => {
           {/* content */}
           <div className="bg_primary bg-height"></div>
           <div className="bg_secondary py_3">
-            <div className="bg_red py_3 d-flex align-items-center justify-content-between px-16 px-md-30">
+            <div className="bg_red py-1 d-flex align-items-center justify-content-between px-16 pe-10 px-md-30">
               <h1 className="ff_brothers fs_lg fw-bold text-white text-uppercase white_space mb-0 pb-1">
                 first ever comic crypto
               </h1>
               <div className="d-flex align-items-center">
-                <h2 className=" text-uppercase fs_md fw-normal ff_Badabb mb-0 text-after position-relative z-2 ps-2 ps-md-3">
+                <h2 className=" text-uppercase fs_md fw-normal ff_Badabb mb-0 text-after position-relative z-2 ps-2 ps-md-3 pt-1">
                   comic adventures
                 </h2>
                 <h2 className="text-white text-uppercase fw-normal fs_2sm ff_CrimeFighter mb-0 text-after1 position-relative z-2 ps-1 ps-sm-2">
