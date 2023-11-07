@@ -23,6 +23,11 @@
   src: url('./assets/fonts/Liberty/libertylegion.ttf');
 }
 
+@font-face {
+  font-family: Bright;
+  src: url('./assets/fonts/Bright/BRIGHTSIGHT02\ Regular.otf');
+}
+
 :root {
   --fs-xs: 10px;
   --fs-sm: 24px;
@@ -57,6 +62,10 @@
 
 .ff_CrimeFighter {
   font-family: CrimeFighter;
+}
+
+.ff_Bright {
+  font-family: Bright;
 }
 
 .fs_xxl {
@@ -194,10 +203,12 @@
 .navbtn:hover {
   opacity: 0.6;
 }
-.navbtn{
-  transition: all linear 200ms;
+
+.navbtn {
+  transition: all linear 100ms;
 }
-.pe-10{
+
+.pe-10 {
   padding-right: 10px;
 }
 
@@ -293,6 +304,10 @@
   .px-md-30 {
     padding: 0px 30px !important;
   }
+
+  .pe-10 {
+    padding-right: 15px;
+  }
 }
 
 @media (min-width:991.98px) {
@@ -303,7 +318,7 @@
     --fs-md: 24px;
     --fs-lg: 36px;
     --fs-xl: 45px;
-    --fs_xxl: 32px;
+    --fs_xxl: 45px;
   }
 
   .text-after::before {
@@ -317,7 +332,7 @@
 
 @media (min-width:1199.98px) {
   .mobile_img_position {
-    left: 20px;
+    left: 0.5%;
   }
 
   .min_h_100 {
@@ -325,7 +340,7 @@
   }
 
   .coffee_img_set {
-    right: 0px;
+    right: -0.5%;
   }
 
   .coffee_img {
@@ -335,11 +350,11 @@
 
 @media (min-width:1399.98px) {
   .rotate {
-    rotate: -15deg;
+    rotate: -8deg;
   }
 
   .mobile_img_position {
-    left: 140px;
+    left: 7%;
   }
 
   .coffee_img {
@@ -347,6 +362,20 @@
   }
 
   .coffee_img_set {
-    right: 50px;
+    right: 0%;
+  }
+}
+
+@media (min-width:1599.98px) {
+  .coffee_img_set {
+    right: 8%;
+  }
+
+  .rotate {
+    rotate: -15deg;
+  }
+
+  .mobile_img_position {
+    left: 10%;
   }
 }

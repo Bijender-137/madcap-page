@@ -38,9 +38,9 @@ const Mynav = () => {
           <p className="fs_sm text-white text-center mt-5 pt-2">
            {currentTime}
           </p>
-          <p className="fs_sm text-white text-center "> {currentDate}</p>
-          <p className="fs_md text-white fw-normal text-center ff_Liberty mt-5">
-            no venture, <br /> no victory
+          <p className="fs_sm text-white text-center fw-medium"> {currentDate}</p>
+          <p className="fs_md text-white fw-normal ps-4 ff_Liberty mt-4 pt-2">
+            no venture, <span className="d-block"> no victory</span>
           </p>
         </div>
         <img
@@ -185,7 +185,7 @@ const Mynav = () => {
           <div className="bg_blue w-100 pt-1"></div>
 
           <div className=" bg_red text-center">
-            <h2 className="fw-normal fs_xxl letter_spa ff_brothers mb-0 py-2">
+            <h2 className="fw-normal fs_xxl letter_spa ff_Bright letter_spacing mb-0 py-2">
               Madcap's Mission: Turning Everyday Investors into crypto heros!
             </h2>
           </div>
