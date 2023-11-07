@@ -5,7 +5,7 @@ import { CrossIcon, DiscrodIcon, MenuIcon, TwitterIcon } from "./common/Icon";
 import HeroImg from "../assets/img/webp/groping_hero.webp";
 import CoffeeImg from "../assets/img/webp/Coffee_img.webp";
 import line from "../assets/img/svg/line.svg";
-import MobileView from "../assets/img/webp/mobile_Version.webp"
+import MobileView from "../assets/img/webp/mobile_Version.webp";
 
 const Mynav = () => {
   const [menu, setMenu] = useState(false);
@@ -36,7 +36,7 @@ const Mynav = () => {
       <section className="bg_img_hero min_h_100 position-relative">
         <div className="mobile_img position-absolute mobile_img_w w-100 top-50 translate-middle-y rotate d-none d-xl-block mobile_img_position">
           <p className="fs_sm text-white text-center mt-5 pt-2">
-           {currentTime}
+            {currentTime}
           </p>
           <p className="fs_sm text-white text-center "> {currentDate}</p>
           <p className="fs_md text-white fw-normal text-center ff_Liberty mt-5">
@@ -130,10 +130,7 @@ const Mynav = () => {
                         Whitepaper
                       </a>
                     </li>
-                    <li
-                      className="d-md-none"
-                      onClick={() => setMenu(false)}
-                    >
+                    <li className="d-md-none" onClick={() => setMenu(false)}>
                       <CrossIcon />
                     </li>
                   </ul>
@@ -145,7 +142,6 @@ const Mynav = () => {
                 </div>
                 <div className="d-flex align-items-center gap-4">
                   <a href="#" className="pb-1">
-                    
                     <TwitterIcon />
                   </a>
                   <a href="#" className="pb-1">
@@ -176,10 +172,13 @@ const Mynav = () => {
           <div className="bg_secondary pt-1"></div>
           {/* hero section */}
           <div className="bg_clr_blue z-3 position-relative">
-            <img className="w-100 d-none d-md-block" src={HeroImg} alt="HeroImg" />
+            <img
+              className="w-100 d-none d-md-block"
+              src={HeroImg}
+              alt="HeroImg"
+            />
             <img className="w-100 d-md-none" src={MobileView} alt="HeroImg" />
             {/* footer */}
-
           </div>
           <div className="yellow_border w-100 bg_height"></div>
           <div className="bg_blue w-100 pt-1"></div>

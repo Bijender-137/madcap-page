@@ -182,21 +182,6 @@
   padding: 3px 0px;
 }
 
-.group {
-  height: 24px;
-  width: 24px;
-}
-
-.px-16 {
-  padding: 0px 16px;
-}
-
-.navbtn:hover {
-  opacity: 0.6;
-}
-.navbtn{
-  transition: all linear 200ms;
-}
 
 @media (max-width:767.98px) {
   .nav-fix {
@@ -276,20 +261,17 @@
   }
 
   .text-after::before {
-    height: 35px;
+    height: 39px;
   }
 
   .text-after1::before {
-    height: 35px;
+    height: 39px;
   }
 
   .white_space {
     white-space: nowarp;
   }
 
-  .px-md-30 {
-    padding: 0px 30px !important;
-  }
 }
 
 @media (min-width:991.98px) {
@@ -301,14 +283,6 @@
     --fs-lg: 36px;
     --fs-xl: 45px;
     --fs_xxl: 32px;
-  }
-
-  .text-after::before {
-    height: 39px;
-  }
-
-  .text-after1::before {
-    height: 39px;
   }
 }
 
