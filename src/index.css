@@ -183,15 +183,11 @@
 
 
 @media (max-width:768px) {
-  .btn {
-    display: block;
-  }
-
   .nav-fix {
     position: fixed;
     width: 100%;
-    left: 0;
-    top: -100%;
+    top: 0;
+    left: -100%;
     transition: linear 500ms;
     min-height: 100%;
     background-color: var(--white-color);
@@ -227,13 +223,6 @@
   .show-nav div {
     flex-direction: column;
     gap: 20px !important;
-  }
-
-  .crossIconset {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    transition: 0.3s ease-in-out;
   }
 }
 

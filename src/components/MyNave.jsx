@@ -55,7 +55,7 @@ const Mynav = () => {
             <div className="bg_secondary py-2 pb-md-3 px-3">
               <div className="d-flex justify-content-between align-items-center">
                 <div className={`${menu ? "show-nav" : "nav-fix"}`}>
-                  <ul className="d-flex ps-0 mb-0 gap-3 gap-md-4 flex-column flex-md-row align-items-center navActive">
+                  <ul className="d-flex ps-0 mb-0 gap-2 gap-sm-3 gap-md-4 flex-column flex-md-row align-items-center navActive">
                     <li>
                       <a
                         className="text-white text-decoration-none fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
@@ -131,7 +131,7 @@ const Mynav = () => {
                       </a>{" "}
                     </li>
                     <li
-                      className="d-md-none pt-5"
+                      className="d-md-none"
                       onClick={() => setMenu(false)}
                     >
                       <CrossIcon />
