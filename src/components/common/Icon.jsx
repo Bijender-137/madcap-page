@@ -65,6 +65,7 @@ export const MenuIcon = () => {
   export const TwitterIcon = () => {
     return (
       <svg
+        className="group"
         width="16"
         height="15"
         viewBox="0 0 16 15"
@@ -102,6 +103,7 @@ export const MenuIcon = () => {
   export const DiscrodIcon = () => {
     return (
       <svg
+        className="group"
         width="15"
         height="15"
         viewBox="0 0 15 15"
