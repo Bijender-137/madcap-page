@@ -1,3 +1,33 @@
-.max {
-    max-width: 20px;
+.bg_clr_blue {
+    background-color: #01749F;
+}
+
+.madcap_blur_bg::after {
+    background-image: url("./assets/img/png/blur_bg_img.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    content: "";
+}
+
+.madcap_1st_img {
+    background-image: url("./assets/img/png/madcap_1st_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    height: 200px;
+    background-position: center;
+}
+
+.para {
+    font-size: 7px;
+    line-height: 11px;
+    letter-spacing: -0.08px;
+    max-width: 106px;
+    top: 15%;
+    left: 9%;
 }
