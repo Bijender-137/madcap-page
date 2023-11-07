@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style-type: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom_container {
+  max-width: 800px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bg_img_hero {
+  background-image: url("./assets/img/webp/main.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* navbaar */
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.pb_13 {
+  padding-bottom: 13px;
+}
+
+.mr_12 {
+  margin-right: -12px;
+}
+
+.bg_dark_img {
+  background-image: url("./assets/img/png/dark_curve_img.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bg_yellow_img {
+  background-image: url("./assets/img/png/yellow_curve_img.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.btn_dark_padding {
+  padding: 11px 18px 8px 20px;
+}
+
+.btn_yellow_padding {
+  padding: 11px 14px 8px 14px;
+}
+
+
+/* hero section */
+.hero_img_w {
+  max-width: 766px;
+}
+
+.bg_clr_blue {
+  background-color: #039ED4;
+}
+
+.mobile_img {
+  background-image: url("./assets//img/webp/mobile.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.rotate {
+  transform: rotate(-15deg);
+}
+
+.mobile_img_w {
+  max-width: 185px;
+  height: 366px;
+  /* left: 140px; */
+
+}
+
+.coffee_img {
+  max-width: 336px;
+}
+
+.coffee_img_set {
+  right: 140px;
+}
+
+/* footer */
+.letter_spa {
+  letter-spacing: 0.6px;
+  color: #FF0;
+}
+
+.bg_red {
+  background-color: #FF000D;
+}
+
+.yellow_border {
+  background-color: #FF0;
+  height: 2.526px;
+}
+
+.ltr_sp_6 {
+  letter-spacing: 0.116px;
+}
+
+/* media quarry */
+@media (min-width:1199.98) {
+  .min_h_100 {
+    min-height: 100vh;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .coffee_img_set {
+    right: -180px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .mobile_img_w {
+    left: -57px;
+
   }
 }
