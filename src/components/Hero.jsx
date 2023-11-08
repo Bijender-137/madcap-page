@@ -1,6 +1,6 @@
 import React from 'react'
-import circleCruve from '../assets/img/svg/cicle_curve.svg'
-import { BnbIcon, EthIcon, UsdtIcon } from './common/Icon'
+import circleCruve from '../assets/images/svg/cicle_curve.svg'
+import { BnbIcon, EthIcon, UsdtIcon } from './common/Icons'
 
 const Hero = () => {
     return (
@@ -27,7 +27,7 @@ const Hero = () => {
                         <div className="position-relative pe-md-4 pt-md-3">
                             <img src={circleCruve} alt="circleCruve" className='curveImg position-absolute' />
                             <p className="z-1 mb-0 position-absolute text-uppercase text-black fw-normal ff_CrimeFighter fs_md text_rotate">Audit</p>
-                            <h2 className='text-uppercase text-center mb-0 latter_spacing193 z-1 position-relative fs_xxxl  color_primary ff_Liberty fw-normal text-shadow'>Madcap</h2>
+                            <h1 className='text-uppercase text-center mb-0 latter_spacing193 z-1 position-relative fs_xxxl  color_primary ff_Liberty fw-normal text-shadow'>Madcap</h1>
                         </div>
                     </div>
 
