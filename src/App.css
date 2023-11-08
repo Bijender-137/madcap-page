@@ -13,7 +13,7 @@
 }
 
 .bg_img_hero {
-  background-image: url("./assets/img/webp/main.webp");
+  background-image: url("./assets/images/webp/main.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,7 +43,7 @@
 }
 
 .mobile_img {
-  background-image: url("./assets//img/webp/mobile.webp");
+  background-image: url("./assets//images/webp/mobile.webp");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 

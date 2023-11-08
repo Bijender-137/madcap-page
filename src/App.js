@@ -5,16 +5,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import { Route, Routes } from "react-router-dom";
 import Madcap from "./components/Madcap";
-import NewNav from "./components/NewNav";
-import MyNave from "./components/MyNave";
+import Header from "./components/Header";
+import Pages from "./components/Pages";
+
 function App() {
   return (
     <>
       {/* <NewNav/> */}
-      {/* <MyNave />  */}
+      <Pages />
       {/* <Madcap /> */}
       <Routes>
-        <Route exact path="/" Component={MyNave} />
+        <Route exact path="/" Component={Header} />
         <Route exact path="/Madcap" Component={Madcap} />
       </Routes>
     </>

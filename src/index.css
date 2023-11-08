@@ -3,32 +3,32 @@
 
 @font-face {
   font-family: Brothes;
-  src: url('./assets/fonts/Brothers/BROTHER-Bold.otf');
+  src: url('./assets/fonts/brothers/BROTHER-Bold.otf');
 }
 
 @font-face {
   font-family: MangaMaster;
-  src: url('./assets/fonts/MangaMaster/MangaMasterProBB-bold.otf');
+  src: url('./assets/fonts/mangaMaster/MangaMasterProBB-bold.otf');
 }
 
 @font-face {
   font-family: CrimeFighter;
-  src: url('./assets/fonts/CrimeFighter/crimefighter-bb.bold.ttf');
+  src: url('./assets/fonts/crimeFighter/crimefighter-bb.bold.ttf');
 }
 
 @font-face {
   font-family: Badabb;
-  src: url('./assets/fonts/Badabb/BADABB__.TTF');
+  src: url('./assets/fonts/badabb/BADABB__.TTF');
 }
 
 @font-face {
   font-family: Liberty;
-  src: url('./assets/fonts/Liberty/libertylegion.ttf');
+  src: url('./assets/fonts/liberty/libertylegion.ttf');
 }
 
 @font-face {
   font-family: Bright;
-  src: url('./assets/fonts/Bright/BRIGHTSIGHT02\ Regular.otf');
+  src: url('./assets/fonts/bright/BRIGHTSIGHT02\ Regular.otf');
 }
 
 @font-face {
@@ -60,6 +60,12 @@
   --lite-dark: #0A273B;
   --dark-red: #C82C13;
   --white-400: #818181;
+  --slate-gray-400: #6E7995;
+  --slate-gray-500: #818181;
+}
+
+body {
+  font-family: MangaMaster;
 }
 
 .ff_brothers {
@@ -101,6 +107,7 @@
 .fs_xxs {
   font-size: var(--fs-xxs) !important;
 }
+
 .fs_xs {
   font-size: var(--fs-xs) !important;
 }
@@ -204,6 +211,14 @@
   color: var(--yellow-color-400);
 }
 
+.color_slate_gray_400 {
+  color: var(--slate-gray-400);
+}
+
+.color_slate_gray_500 {
+  color: var(--slate-gray-500);
+}
+
 .max-w-764 {
   max-width: 780px !important;
 }
@@ -263,6 +278,11 @@
 .group {
   height: 24px;
   width: 24px;
+  transition: all linear 100ms;
+}
+
+.group:hover {
+  opacity: 0.6;
 }
 
 .px-16 {
@@ -443,7 +463,7 @@
 
 @media (min-width:1599.98px) {
   .coffee_img_set {
-    right: 8%;
+    right: 6%;
   }
 
   .rotate {

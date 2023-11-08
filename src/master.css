@@ -9,7 +9,7 @@
 
 
 .madcap_blur_bg::after {
-    background-image: url("./assets/img/png/blur_bg_img.png");
+    background-image: url("./assets/images/png/blur_bg_img.png");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 
 .madcap_1st_img {
-    background-image: url("./assets/img/png/madcap_1st_img.png");
+    background-image: url("./assets/images/png/madcap_1st_img.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
@@ -43,7 +43,7 @@
 }
 
 .madcap_2nd_img {
-    background-image: url("./assets/img/webp/madcap_2nd_img.webp");
+    background-image: url("./assets/images/webp/madcap_2nd_img.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 149px;
@@ -59,7 +59,7 @@
 }
 
 .madcap_3rd_img {
-    background-image: url("./assets/img/webp/madcap_3rd_img.webp");
+    background-image: url("./assets/images/webp/madcap_3rd_img.webp");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 290px;

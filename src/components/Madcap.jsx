@@ -1,13 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import NewNav from "./NewNav";
+import Header from "./Header";
 
 const Madcap = () => {
   return (
     <>
       <section className="">
         <Container className="custom_container px-0">
-          <NewNav />
+          <Header />
           <div className="yellow_border w-100"></div>
 
           <div className="bg_clr_blue position-relative madcap_ blur_bg">
