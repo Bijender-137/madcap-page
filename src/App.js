@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       {/* <NewNav/> */}
-      <MyNave />
-      {/* <Madcap/> */}
+      {/* <MyNave /> */}
+      <Madcap/>
     </>
   );
 }

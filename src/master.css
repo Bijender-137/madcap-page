@@ -2,6 +2,14 @@
     background-color: #01749F;
 }
 
+.fs_12 {
+    font-size: 20px;
+}
+
+.custom_container_2 {
+    max-width: 595px !important;
+}
+
 .madcap_blur_bg::after {
     background-image: url("./assets/img/png/blur_bg_img.png");
     width: 100%;
@@ -17,17 +25,140 @@
     background-image: url("./assets/img/png/madcap_1st_img.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
     height: 200px;
     background-position: center;
+    max-width: 390px;
+
+
 }
 
 .para {
     font-size: 7px;
     line-height: 11px;
     letter-spacing: -0.08px;
+}
+
+.madcap_1st_img_text {
     max-width: 106px;
     top: 15%;
     left: 9%;
+}
+
+.madcap_2nd_img {
+    background-image: url("./assets/img/webp/madcap_2nd_img.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 149px;
+    background-position: center;
+    max-width: 390px;
+
+}
+
+.madcap_2nd_img_text {
+    right: 26%;
+    max-width: 84px;
+    top: 21%;
+}
+
+.madcap_3rd_img {
+    background-image: url("./assets/img/webp/madcap_3rd_img.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 290px;
+    background-position: center;
+    max-width: 390px;
+
+}
+
+.madcap_3rd_img_text {
+    top: 5%;
+    right: 24%;
+    max-width: 80px;
+}
+
+.madcap_3rd_img_2nd_text {
+    bottom: 0%;
+    right: 9%;
+    max-width: 80px;
+}
+
+@media (max-width:575.98px) {
+    .nav-fix_sm {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: -100%;
+        transition: linear 500ms;
+        min-height: 100%;
+        background-color: var(--white-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 999 !important;
+
+    }
+
+    .nav-fix_sm div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .show-nav_sm {
+        position: fixed;
+        width: 100%;
+        background-color: var(--blue-color);
+        top: 0;
+        left: 0;
+        z-index: 999 !important;
+        transition: linear 500ms;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+    }
+
+    .show-nav_sm div {
+        flex-direction: column;
+        gap: 20px !important;
+    }
+
+}
+
+
+@media (min-width:576px) {
+    .para {
+        font-size: 8px;
+        line-height: 9px;
+        letter-spacing: -0.08px;
+    }
+
+    .madcap_1st_img_text {
+        top: 14%;
+        left: 9%;
+        max-width: 120px;
+    }
+
+    .madcap_2nd_img_text {
+        right: 27%;
+    }
+
+    .madcap_3rd_img {
+        background-size: cover;
+        height: 290px;
+        max-width: 390px;
+        width: 390px;
+    }
+
+    .madcap_3rd_img_text {
+        top: 7%;
+        right: 23%;
+        max-width: 91px;
+    }
+
+    .fs_12 {
+        font-size: 12px;
+    }
 }
