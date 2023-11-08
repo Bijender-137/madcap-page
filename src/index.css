@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
 @font-face {
   font-family: Brothes;
   src: url('./assets/fonts/Brothers/BROTHER-Bold.otf');
@@ -28,28 +31,51 @@
   src: url('./assets/fonts/Bright/BRIGHTSIGHT02\ Regular.otf');
 }
 
+@font-face {
+  font-family: Samaritan;
+  src: url('./assets/fonts/samaritan-tall-lower/CC\ SamaritanTallLower.otf');
+}
+
 :root {
+  --fs-xxs: 10px;
   --fs-xs: 10px;
+  --fs-2xs: 14px;
   --fs-sm: 24px;
   --fs-2sm: 10px;
   --fs-md: 12px;
+  --fs-2md: 16px;
+  --fs-3sm: 16px;
   --fs-lg: 15px;
   --fs-xl: 45px;
   --fs_xxl: 14px;
+  --fs-xxxl: 88px;
 
   --primary-color: #FFFF00;
   --secondary-color: #2B1501;
   --red-color: #FF000D;
   --dark-color: #231D18;
   --blue-color: #039ED4;
+  --yellow-color-400: #F9A41C;
+  --lite-white: #F6F6F6;
+  --lite-dark: #0A273B;
+  --dark-red: #C82C13;
+  --white-400: #818181;
 }
 
 .ff_brothers {
   font-family: Brothes;
 }
 
+.ff_Poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
 .ff_MangaMaster {
   font-family: MangaMaster;
+}
+
+.ff_Samaritan {
+  font-family: Samaritan;
 }
 
 .ff_Badabb {
@@ -72,8 +98,15 @@
   font-size: var(--fs_xxl);
 }
 
+.fs_xxs {
+  font-size: var(--fs-xxs) !important;
+}
 .fs_xs {
   font-size: var(--fs-xs) !important;
+}
+
+.fs_2xs {
+  font-size: var(--fs-2xs) !important;
 }
 
 
@@ -85,9 +118,17 @@
   font-size: var(--fs-2sm) !important;
 }
 
+.fs_3sm {
+  font-size: var(--fs-3sm) !important;
+}
+
 
 .fs_md {
   font-size: var(--fs-md) !important;
+}
+
+.fs_2md {
+  font-size: var(--fs-2md) !important;
 }
 
 
@@ -97,6 +138,10 @@
 
 .fs_xl {
   font-size: var(--fs-xl) !important;
+}
+
+.fs_xxxl {
+  font-size: var(--fs-xxxl);
 }
 
 .bg_primary {
@@ -119,6 +164,26 @@
   background-color: var(--dark-color);
 }
 
+.bg_lite_white {
+  background-color: var(--lite-white);
+}
+
+.bg_lite_dark {
+  background-color: var(--lite-dark);
+}
+
+.color_dark_red {
+  color: var(--dark-red);
+}
+
+.color_white_400 {
+  color: var(--white-400);
+}
+
+.color_lite_white {
+  color: var(--lite-white);
+}
+
 .color_primary {
   color: var(--primary-color);
 }
@@ -133,6 +198,10 @@
 
 .color_dark {
   color: var(--dark-color) !important;
+}
+
+.color_yellow_400 {
+  color: var(--yellow-color-400);
 }
 
 .max-w-764 {
@@ -264,13 +333,16 @@
 @media (min-width:576px) {
   :root {
     --fs-xs: 12px;
+    --fs-2xs: 14px;
     --fs-sm: 16px;
     --fs-2sm: 18px;
+    --fs-3sm: 18px;
     --fs-md: 13px;
+    --fs-2md: 20px;
     --fs-lg: 24px;
     --fs_xxl: 18px;
     --fs-xl: 45px;
-
+    --fs-xxxl: 100px;
   }
 
   .text-after::before {
@@ -285,12 +357,16 @@
 @media (min-width:767.98px) {
   :root {
     --fs-xs: 12px;
+    --fs-2xs: 14px;
     --fs-sm: 16px;
     --fs-2sm: 18px;
+    --fs-3sm: 18px;
     --fs-md: 24px;
+    --fs-2md: 26px;
     --fs-lg: 32px;
     --fs_xxl: 25px;
     --fs-xl: 45px;
+    --fs-xxxl: 110px;
   }
 
   .text-after::before {
@@ -319,10 +395,13 @@
     --fs-xs: 12px;
     --fs-sm: 16px;
     --fs-2sm: 18px;
+    --fs-3sm: 19px;
     --fs-md: 24px;
+    --fs-2md: 29px;
     --fs-lg: 36px;
     --fs-xl: 45px;
     --fs_xxl: 45px;
+    --fs-xxxl: 120px;
   }
 }
 

@@ -15,7 +15,7 @@ const NewNav = () => {
       <section>
         <Container className="custom_container_2 px-0">
           <nav className="w-100">
-            <div className="bg_secondary py-2 pb-md-3 px-16  px-md-30">
+            <div className="bg_secondary py-2 pb-md-3 px-16 px-md-30">
               <div className="d-flex justify-content-between align-items-center">
                 <div className={`${menu ? "show-nav_sm" : "nav-fix_sm"}`}>
                   <ul className="d-flex ps-0 mb-0 gap-3 gap-md-3 flex-column flex-sm-row align-items-center navActive">
