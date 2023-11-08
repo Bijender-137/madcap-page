@@ -28,12 +28,19 @@
   src: url('./assets/fonts/Bright/BRIGHTSIGHT02\ Regular.otf');
 }
 
+@font-face {
+  font-family: Samaritan;
+  src: url('./assets/fonts/samaritan-tall-lower/CC\ SamaritanTallLower.otf');
+}
+
 :root {
   --fs-xs: 10px;
+  --fs-2xs: 14px;
   --fs-sm: 24px;
   --fs-2sm: 10px;
   --fs-md: 12px;
   --fs-2md: 16px;
+  --fs-3sm: 16px;
   --fs-lg: 15px;
   --fs-xl: 45px;
   --fs_xxl: 14px;
@@ -45,6 +52,10 @@
   --dark-color: #231D18;
   --blue-color: #039ED4;
   --yellow-color-400: #F9A41C;
+  --lite-white: #F6F6F6;
+  --lite-dark: #0A273B;
+  --dark-red: #C82C13;
+  --white-400: #818181;
 }
 
 .ff_brothers {
@@ -53,6 +64,10 @@
 
 .ff_MangaMaster {
   font-family: MangaMaster;
+}
+
+.ff_Samaritan {
+  font-family: Samaritan;
 }
 
 .ff_Badabb {
@@ -79,6 +94,10 @@
   font-size: var(--fs-xs) !important;
 }
 
+.fs_2xs {
+  font-size: var(--fs-2xs) !important;
+}
+
 
 .fs_sm {
   font-size: var(--fs-sm) !important;
@@ -86,6 +105,10 @@
 
 .fs_2sm {
   font-size: var(--fs-2sm) !important;
+}
+
+.fs_3sm {
+  font-size: var(--fs-3sm) !important;
 }
 
 
@@ -105,7 +128,8 @@
 .fs_xl {
   font-size: var(--fs-xl) !important;
 }
-.fs_xxxl{
+
+.fs_xxxl {
   font-size: var(--fs-xxxl);
 }
 
@@ -127,6 +151,26 @@
 
 .bg_dark {
   background-color: var(--dark-color);
+}
+
+.bg_lite_white {
+  background-color: var(--lite-white);
+}
+
+.bg_lite_dark {
+  background-color: var(--lite-dark);
+}
+
+.color_dark_red {
+  color: var(--dark-red);
+}
+
+.color_white_400 {
+  color: var(--white-400);
+}
+
+.color_lite_white {
+  color: var(--lite-white);
 }
 
 .color_primary {
@@ -278,8 +322,10 @@
 @media (min-width:576px) {
   :root {
     --fs-xs: 12px;
+    --fs-2xs: 14px;
     --fs-sm: 16px;
     --fs-2sm: 18px;
+    --fs-3sm: 18px;
     --fs-md: 13px;
     --fs-2md: 20px;
     --fs-lg: 24px;
@@ -300,8 +346,10 @@
 @media (min-width:767.98px) {
   :root {
     --fs-xs: 12px;
+    --fs-2xs: 14px;
     --fs-sm: 16px;
     --fs-2sm: 18px;
+    --fs-3sm: 18px;
     --fs-md: 24px;
     --fs-2md: 26px;
     --fs-lg: 32px;
@@ -336,6 +384,7 @@
     --fs-xs: 12px;
     --fs-sm: 16px;
     --fs-2sm: 18px;
+    --fs-3sm: 19px;
     --fs-md: 24px;
     --fs-2md: 29px;
     --fs-lg: 36px;
