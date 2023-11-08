@@ -6,9 +6,7 @@
     font-size: 20px;
 }
 
-.custom_container_2 {
-    max-width: 595px !important;
-}
+
 
 .madcap_blur_bg::after {
     background-image: url("./assets/img/png/blur_bg_img.png");
@@ -82,50 +80,6 @@
     max-width: 80px;
 }
 
-@media (max-width:575.98px) {
-    .nav-fix_sm {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: -100%;
-        transition: linear 500ms;
-        min-height: 100%;
-        background-color: var(--white-color);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        z-index: 999 !important;
-
-    }
-
-    .nav-fix_sm div {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .show-nav_sm {
-        position: fixed;
-        width: 100%;
-        background-color: var(--blue-color);
-        top: 0;
-        left: 0;
-        z-index: 999 !important;
-        transition: linear 500ms;
-        min-height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transition: 0.3s ease-in-out;
-    }
-
-    .show-nav_sm div {
-        flex-direction: column;
-        gap: 20px !important;
-    }
-
-}
 
 
 @media (min-width:576px) {
