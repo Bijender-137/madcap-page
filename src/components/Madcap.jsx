@@ -6,7 +6,7 @@ const Madcap = () => {
   return (
     <>
       <section className="">
-        <Container className="custom_container_2 px-0">
+        <Container className="custom_container px-0">
           <NewNav />
           <div className="yellow_border w-100"></div>
 
