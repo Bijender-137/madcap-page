@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
 @font-face {
   font-family: Brothes;
   src: url('./assets/fonts/Brothers/BROTHER-Bold.otf');
@@ -34,6 +37,7 @@
 }
 
 :root {
+  --fs-xxs: 10px;
   --fs-xs: 10px;
   --fs-2xs: 14px;
   --fs-sm: 24px;
@@ -60,6 +64,10 @@
 
 .ff_brothers {
   font-family: Brothes;
+}
+
+.ff_Poppins {
+  font-family: 'Poppins', sans-serif;
 }
 
 .ff_MangaMaster {
@@ -90,6 +98,9 @@
   font-size: var(--fs_xxl);
 }
 
+.fs_xxs {
+  font-size: var(--fs-xxs) !important;
+}
 .fs_xs {
   font-size: var(--fs-xs) !important;
 }

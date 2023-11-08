@@ -1,5 +1,6 @@
 import React from 'react'
 import circleCruve from '../assets/img/svg/cicle_curve.svg'
+import { BnbIcon, EthIcon, UsdtIcon } from './common/Icon'
 
 const Hero = () => {
     return (
@@ -54,25 +55,25 @@ const Hero = () => {
                             <div className="buyNowBox-black bg-black">
                                 <div className="buyNowBox bg-white">
                                     <p className="text-center pt-4 mb-0 ff_MangaMaster fs_sm fw-bold">1 Madcap coin = $0.0025</p>
-                                    <div className="d-flex">
-                                        <div className="logoBox position-relative d-flex justify-content-center align-items-center gap-2 w-100">
+                                    <div className="d-flex justify-content-center gap-4 pt-2">
+                                        <div className="logoBox position-relative d-flex justify-content-center align-items-center">
                                             <div className="d-flex z-2 position-relative justify-content-center align-items-center">
-                                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx="8.44129" cy="8.55644" r="8.34501" fill="#FFE774" />
-                                                    <g clip-path="url(#clip0_0_1)">
-                                                        <path d="M10.9577 9.78882C10.9577 9.78882 8.13322 11.2011 8.0947 11.2139C8.0947 11.2139 5.24456 9.78882 5.23172 9.78882L8.0947 13.2167L10.9577 9.78882Z" fill="#0D2F46" />
-                                                        <path d="M8.0947 4.06299L5.23172 9.13419L8.0947 10.9316L10.9577 9.13419L8.0947 4.06299Z" fill="#0D2F46" />
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_0_1">
-                                                            <rect width="5.72596" height="9.15384" fill="white" transform="translate(5.23172 4.06299)" />
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg>
-                                                <span className='ps-1 mb-0' >ETH</span>
+                                                <EthIcon />
+                                                <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs' >ETH</span>
                                             </div>
                                         </div>
-
+                                        <div className="logoBox mx-2 px-1 position-relative d-flex justify-content-center align-items-center">
+                                            <div className="d-flex z-2 position-relative justify-content-center align-items-center">
+                                                <UsdtIcon />
+                                                <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs' >USDT</span>
+                                            </div>
+                                        </div>
+                                        <div className="logoBox position-relative d-flex justify-content-center align-items-center">
+                                            <div className="d-flex z-2 position-relative justify-content-center align-items-center">
+                                                <BnbIcon />
+                                                <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs' >BNB</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
