@@ -263,6 +263,10 @@
 .group {
   height: 24px;
   width: 24px;
+  transition: all linear 100ms;
+}
+.group:hover{
+  opacity: 0.6;
 }
 
 .px-16 {
