@@ -4,37 +4,37 @@ export const navLinks = [
     {
         id: 1,
         img: NavLine,
-        NavName:"home",
+        NavName: "home",
     },
     {
         id: 2,
         img: NavLine,
-        NavName:"MADCAP",
+        NavName: "MADCAP",
     },
     {
         id: 3,
         img: NavLine,
-        NavName:"TOKENOMICS",
+        NavName: "TOKENOMICS",
     },
     {
         id: 4,
         img: NavLine,
-        NavName:"Road Map",
+        NavName: "Road Map",
     },
     {
         id: 5,
         img: NavLine,
-        NavName:"STAKING",
+        NavName: "STAKING",
     },
     {
         id: 6,
         img: NavLine,
-        NavName:"Nft",
+        NavName: "Nft",
     },
     {
         id: 7,
         img: NavLine,
-        NavName:"WHITEPAPER",
+        NavName: "WHITEPAPER",
     },
-   
+
 ]
