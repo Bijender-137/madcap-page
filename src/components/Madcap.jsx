@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import MadcapFirstImg from "../assets/images/png/madcap_1st_img.png";
+import MadcapFirstImg from "../assets/images/webp/madcap_1st_img.webp";
 import MadcapSecondImg from "../assets/images/webp/madcap_2nd_img.webp";
 import MadcapThirdImg from "../assets/images/webp/madcap_3rd_img.webp";
 
