@@ -10,7 +10,7 @@ const Buybox = () => {
                 <div className="buyNowBox bg-white">
                     <div className="content-rotate-0">
                         <p className="text-center pt-4 mb-0 ff_MangaMaster fs_sm fw-bold">1 Madcap coin = $0.0025</p>
-                        <div className="d-flex justify-content-center gap-4 pt-2">
+                        <div className="d-flex justify-content-center gap-4 pt-3">
                             <button type='button' className="logoBox me-1 position-relative d-flex justify-content-center align-items-center border-0">
                                 <p className="d-flex mb-0 z-2 position-relative justify-content-center align-items-center">
                                     <EthIcon />
