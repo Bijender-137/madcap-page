@@ -9,9 +9,8 @@ const Skating = () => {
     <>
       <div>
         <Container className="custom_container">
-          <Header />
           <div className="position-relative">
-            <div className="pt-2 bg_clr_blue">
+            <div className="pt-2 bg_clr_blue pb-3">
               <div className="bg_primary bg-height"></div>
               <div className="text-center bg_clr_brown py-1">
                 <h1 className="text-white mb-0 fw-bold fs_md ff_MangaMaster">
@@ -22,9 +21,13 @@ const Skating = () => {
                 </p>
               </div>
               <div className="bg_primary bg-height"></div>
-              <div className=" hero_bg position-relative ">
+              <div className="hero_bg position-relative ">
                 <div className="px-4 position-relative z-2 pt-5 pt-sm-0">
-                  <img width={200} className="position-absolute z-n1 card_img_position" src={CardsImg} alt="CardsImg" />
+                  <img
+                    className="position-absolute z-n1 card_img_position"
+                    src={CardsImg}
+                    alt="CardsImg"
+                  />
                   <img className="w-100" src={SkatingMan} alt="SkatingMan" />
                   <div className="position-absolute skating_btn">
                     <h2 className="mb-0 fw-bold fs_md ff_MangaMaster color_primary">
@@ -56,7 +59,21 @@ const Skating = () => {
                   </div>
                 </div>
                 <div className="position-absolute bottom-0 z-3">
-                  <img className="w-100" src={SkatingBottomImg} alt="" />
+                  <div className="position-relative">
+                    <img
+                      className="w-100"
+                      src={SkatingBottomImg}
+                      alt="bottom"
+                    />
+                    <p className="mb-0 position-absolute fs_10 fw-normal skating_bottom_img_first_text ff_MangaMaster">
+                      this looks amazing. anything else in the piplines? other
+                      utilities?
+                    </p>
+                    <p className="mb-0 position-absolute fs_10 fw-normal skating_bottom_img_second_text ff_MangaMaster">
+                      a lot more, but we’re not showing all our cards just yet,
+                      and will focus on these first.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

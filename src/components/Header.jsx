@@ -63,7 +63,7 @@ const Header = () => {
                   <Link
                     onClick={() => setMenu(false)}
                     className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/"
+                    to="/Skating"
                   >
                     Staking
                   </Link>

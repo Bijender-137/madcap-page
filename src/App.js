@@ -26,7 +26,9 @@ function App() {
             <Route exact path="/Madcap" Component={Madcap} />
             <Route exact path="/Tokenomics" Component={Tokenomics} />
             <Route exact path="/Roadmap" Component={RoadMap} />
+            <Route exact path="/Skating" Component={Skating} />
           </Routes>
+          
           <Footer />
         </Container>
       </div>
