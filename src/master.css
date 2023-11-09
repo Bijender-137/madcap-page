@@ -89,6 +89,16 @@
     top: 13%;
 }
 
+
+
+.nft_btn {
+    background-color: #231F20;
+    padding: 3px 6px;
+    display: inline-block;
+    left: 10%;
+    top: 41%;
+}
+
 .skating_man_img {
     max-width: 324px;
     height: 700px;
@@ -114,6 +124,22 @@
     left: 9%;
 }
 
+.card_img_position {
+    top: 52%;
+    left: 16%;
+    max-width: 100px;
+}
+
+.skating_bottom_img_first_text {
+    max-width: 54px;
+    top: 8%;
+    left: 41%;
+}
+.skating_bottom_img_second_text {
+    max-width: 54px;
+    top: 8%;
+    right: 7%;
+}
 
 @media (min-width:576px) {
     .para {
@@ -122,8 +148,34 @@
         letter-spacing: -0.08px;
     }
 
+    .nft_btn {
+        background-color: #231F20;
+        padding: 3px 6px;
+        display: inline-block;
+        left: 10%;
+        top: 33%;
+    }
+
     .skating_btn {
         top: 3%;
+    }
+
+    .skating_bottom_img_first_text {
+        max-width: 78px;
+        top: 14%;
+        left: 44%;
+    }
+
+    .skating_bottom_img_second_text {
+        max-width: 84px;
+        top: 12%;
+        right: 10%;
+    }
+
+    .card_img_position {
+        top: 50%;
+        left: 16%;
+        max-width: 180px;
     }
 
     .first_box_text {
