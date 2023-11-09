@@ -10,6 +10,18 @@
     z-index: 1;
 }
 
+.hero_bg1::before {
+    position: absolute;
+    content: "";
+    height: 80%;
+    width: 100%;
+    top: 0;
+    background: url("./assets/images/png/bg_common_shadow.png") no-repeat;
+    background-size: 100% 80%;
+    background-position: top;
+    z-index: 1;
+}
+
 .bg_box_hero {
     width: 100%;
 }
@@ -189,7 +201,7 @@
     content: "";
     position: absolute;
     top: -18px;
-    right: -91% ;
+    right: -91%;
     height: 100%;
     width: 100%;
     background-position: right;
