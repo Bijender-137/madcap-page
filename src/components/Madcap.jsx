@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 const Madcap = () => {
   return (
     <>
-      <div>
+    
         <Container className="custom_container px-0">
           <Header />
           <div className="yellow_border w-100"></div>
@@ -54,7 +54,7 @@ const Madcap = () => {
                 bold nvestors.
               </p>
             </div>
-            <p className="px-4 fw-bold ff_CrimeFighter fs_xsm text-white text-center pt-4 mt-2 mb-2">
+            <p className="px-4 fw-bold ff_CrimeFighter fs_xsm text-white text-center pt-4 mt-2 pb-2 mb-0">
               This is a fictional comic representation. For full details,
               consult our whitepaper. Investments come with market risks.
             </p>
@@ -62,7 +62,7 @@ const Madcap = () => {
           </div>
           <Footer/>
         </Container>
-      </div>
+    
     </>
   );
 };

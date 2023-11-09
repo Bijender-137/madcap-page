@@ -9,7 +9,7 @@ import TokenomicsFOrthImg from "../assets/images/webp/Tokenomics_4th_img.webp";
 const Tokenomics = () => {
   return (
     <>
-      <div>
+    
         <Container className="custom_container px-0 position-relative ">
           <div className="madcap_blu r_bg"></div>
 
@@ -48,14 +48,14 @@ const Tokenomics = () => {
                 alt="TokenomicsFOrthImg"
               />
             </div>
-            <p className="px-4 fw-bold ff_CrimeFighter fs_xsm text-white text-center pt-4 mt-2 mb-2 lh_12">
+            <p className="px-4 fw-bold ff_CrimeFighter fs_xsm text-white text-center pt-4 mt-2 mb-0 pb-2 lh_12">
               This is a fictional comic representation. For full details,
               consult our whitepaper. Investments come with market risks.
             </p>
           </div>
           <Footer />
         </Container>
-      </div>
+     
     </>
   );
 };
