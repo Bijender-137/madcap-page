@@ -32,14 +32,14 @@
 }
 
 .para {
-    font-size: 7px;
+    font-size: calc(6px + 0.4vw);
     line-height: 11px;
     letter-spacing: -0.08px;
 }
 
 .madcap_1st_img_text {
-    max-width: 91px;
-    top: 16%;
+    max-width: 78px;
+    top: 9%;
     left: 11%;
 }
 
@@ -135,6 +135,7 @@
     top: 8%;
     left: 41%;
 }
+
 .skating_bottom_img_second_text {
     max-width: 54px;
     top: 8%;
