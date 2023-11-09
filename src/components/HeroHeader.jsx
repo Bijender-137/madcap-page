@@ -20,7 +20,7 @@ const HeroHeader = () => {
                 </div>
             </div>
             <div className="bg_primary bg-height"></div>
-            <div className="bg_secondary pt-1"></div>
+            <div className="bg_secondary pt-md-1"></div>
         </>
     )
 }

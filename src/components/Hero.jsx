@@ -13,13 +13,13 @@ const Hero = () => {
                         <div className="p-1 bg_secondary p-md-0 bg_box_hero">
                             <div className="p-1 p-md-0 bg-white">
                                 <div className="d-flex justify-content-between">
-                                    <div className="bg_secondary bg_box_hero d-flex align-items-center justify-content-between ps-2 pe-2">
+                                    <div className="bg_secondary bg_box_hero d-flex align-items-center justify-content-between ps-2 px-2">
                                         <div className='d-flex align-items-center flex-md-column gap-1'>
-                                            <h2 className='ff_Badabb fs_lg color_primary mb-0'>$0.0025</h2>
-                                            <p className='text-white ff_Badabb mb-0'>presale phase #1</p>
+                                            <h2 className='ff_Badabb fs_2md color_primary mb-0'>$0.0025</h2>
+                                            <p className='text-white ff_Badabb mb-0 fs_xs'>presale phase #1</p>
                                         </div>
                                         <div className='white_line bg-white d-md-none'></div>
-                                        <p className='text-center ff_Badabb text-uppercase mb-0 fs_3sm color_yellow_400 line-h-24'>Madcap's <span className="d-md-block fs_2md">heroes</span>
+                                        <p className='text-center ff_Badabb text-uppercase mb-0 fs_3sm color_yellow_400 line-h-24 pe-1'>Madcap's <span className="d-md-block fs_2md">heroes</span>
                                             <span className='d-md-block fs_2md'>unite </span>
                                         </p>
                                     </div>
@@ -82,16 +82,13 @@ const Hero = () => {
                                 <div className='whiteBox bg-white'>
                                 </div>
                                 <div className="riskBox bg_primary d-flex flex-column justify-content-center align-items-center">
-                                    <p className='ff_Bright fw-normal text-black fs_xl text-center lh-32 mb-0'>Risk the dive,</p>
-                                    <p className="fs_2md ff_Bright fw-normal text-black text-center lh-32 mb-0 pe-2">to FInd the preals</p>
+                                    <p className='ff_Bright fw-normal text-black fs_xl text-center line-h-24 mb-0'>Risk the dive,</p>
+                                    <p className="fs_2md ff_Bright fw-normal text-black text-center line-h-24 mb-0 pe-2">to FInd the preals</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-
             </div >
         </>
     )

@@ -59,13 +59,13 @@ const Pages = () => {
 
   return (
     <>
-      <section className="bg_img_hero min_h_100 position-relative">
+      <div className="bg_img_hero min_h_100 position-relative">
         <div className="mobile_img position-absolute mobile_img_w w-100 top-50 translate-middle-y rotate d-none d-xl-block mobile_img_position">
           <p className="fs_lg ff_Poppins line-h-24 text-white text-center mt-5 pt-4 mb-0">
             {currentTime}
           </p>
           <p className="fs_sm ff_Poppins text-white text-center fw-normal pt-1 line-h-24">
-           
+
             {currentDate}
           </p>
           <p className="fs_md text-white fw-normal ps-4 ff_Liberty mt-4 pt-3 line-h-24">
@@ -85,12 +85,11 @@ const Pages = () => {
           {/* hero section */}
           <div className="bg_clr_blue z-3 position-relative">
             <Hero />
-            {/* footer */}
           </div>
           {/* footer */}
           <Footer />
         </Container>
-      </section>
+      </div>
     </>
   );
 };
