@@ -48,15 +48,19 @@
     transform: skew(2deg);
 }
 
-@media (min-width:575.98px) {
-    .timeBox {
-        max-width: 392.857px !important;
-        width: 100%;
-        height: 130.311px;
-        filter: drop-shadow(0px 5.1353912353515625px 5.1353912353515625px rgba(0, 0, 0, 0.25));
-        transform: skew(2deg);
-    }
+.pt-20 {
+    margin-top: -20px;
 }
+
+.manImg {
+    width: 365px;
+    height: 550px;
+}
+
+.mt-250 {
+    margin-top: 225px;
+}
+
 
 .skew-0 {
     transform: skew(-2deg);
@@ -86,8 +90,9 @@
 }
 
 .yellowBox_content {
-    width: 281.163px;
-    padding: 30px 20px 18px 26px;
+    border: 8px solid #000;
+    width: 100%;
+    padding: 16px 16px 16px 16px;
 }
 
 .line-h-14 {
@@ -99,10 +104,15 @@
 }
 
 .buyNowBox-black {
-    width: 370px;
+    width: 320px;
     height: 273px;
-    background-color: hsl(0, 0%, 19%);
+    background-color: hsl(0, 0%, 19%) !important;
     transform: rotate(-0.2deg) translate(3px, -1px);
+}
+
+.buyNowBox {
+    width: 315px;
+    height: 267px;
 }
 
 .logoBox::before {
@@ -140,8 +150,9 @@
 }
 
 .riskBox {
-    width: 205.416px;
-    height: 83.45px;
+    width: 146px;
+    height: 59px;
+    border: 2px solid #000;
 }
 
 .lh-32 {
@@ -149,8 +160,10 @@
 }
 
 .whiteBox {
-    width: 120.682px;
-    height: 120.682px;
+    width: 85px;
+    border-bottom: 0px solid transparent !important;
+    height: 85px;
+    border: 2px solid #000;
 }
 
 .w-205 {
@@ -165,15 +178,84 @@
 .timeBox::after {
     content: "";
     position: absolute;
-    top: -15px;
-    right: -93% !important;
+    top: -18px;
+    right: -91% !important;
     height: 100%;
     width: 100%;
     background-position: right;
     background: url("./assets/images/png/white_black_curve.png") no-repeat;
 }
 
+.riskbox_mobile_view_position {
+    top: -160px;
+    left: 0;
+}
+
+.w-146 {
+    width: 146px;
+}
+
+@media (min-width:575.98px) {
+    .timeBox {
+        max-width: 392.857px !important;
+        width: 100%;
+        height: 130.311px;
+        filter: drop-shadow(0px 5.1353912353515625px 5.1353912353515625px rgba(0, 0, 0, 0.25));
+        transform: skew(2deg);
+    }
+
+    .manImg {
+        width: 385.421px;
+        height: 562.9px;
+    }
+
+    .timeBox::after {
+        top: -15px;
+        right: -93% !important;
+    }
+
+    .buyNowBox {
+        width: 350px;
+        height: 267px;
+    }
+
+    .buyNowBox-black {
+        width: 356px;
+        height: 273px;
+        transform: translate(3px, -1px);
+    }
+
+    .yellowBox_content {
+        border: 8px solid #000;
+        width: 281.163px;
+        padding: 30px 20px 18px 26px;
+    }
+}
+
 @media (min-width:767.98px) {
+    .yellowBox_content {
+        border: 0px solid transparent;
+        width: 281.163px;
+        padding: 30px 20px 18px 26px;
+    }
+
+    .whiteBox {
+        width: 120.682px;
+        height: 120.682px;
+        border: 0px solid #000;
+    }
+
+    .riskBox {
+        width: 205.416px;
+        height: 83.45px;
+        border: 0px solid #000;
+    }
+
+    .buyNowBox {
+        width: 364px;
+        height: 267px;
+    }
+
     .curveImg {
         left: -135px;
         top: 20px;
@@ -195,13 +277,7 @@
 
 
 
-    .buyNowBox {
-        width: 364px;
-        height: 267px;
 
-        /* box-shadow: 4px 14px 14px 4px #303030; */
-        /* filter: drop-shadow(0px 5.1353912353515625px 5.1353912353515625px rgba(0, 0, 0, 0.25)); */
-    }
 
     .content-rotate-0 {
         transform: rotate(0.4deg);
