@@ -30,7 +30,7 @@ const Hero = () => {
                         <div className="position-relative pe-md-4 pt-md-3">
                             <img src={circleCruve} alt="circleCruve" className='curveImg position-absolute' />
                             <p className="z-1 mb-0 position-absolute text-uppercase text-black fw-normal ff_CrimeFighter fs_md text_rotate">Audit</p>
-                            <h1 className='text-uppercase text-center mb-0 latter_spacing193 z-1 position-relative fs_xxxl  color_primary ff_Liberty fw-normal text-shadow'>Madcap</h1>
+                            <h1 className='text-uppercase heading_shadow position-relative text-center mb-0 latter_spacing193 z-1 position-relative fs_xxxl  color_primary ff_Liberty fw-normal text-shadow'>Madcap</h1>
                         </div>
                     </div>
                     <div className="d-flex justify-content-center position-relative">
@@ -91,8 +91,9 @@ const Hero = () => {
                                 THE LOWEST PRESALE PRICE FOR THE TOKEN
                             </p>
                             <div className="px-3 w-100 d-flex justify-content-center">
-                                <div className="yellowBox_content bg_primary">
-                                    <p className="fs_2xs fw-bold ff_CrimeFighter line-h-14">
+                                <div className="yellowBox_content bg_primary position-relative">
+                                    <div className="border_sm_8 z-2 position-relative">
+                                        <p className="fs_2xs fw-bold ff_CrimeFighter line-h-14 ">
                                         Join Madcap's crypto
                                         <span className="d-md-block"> universe, where</span>
                                         comics meet finance!
@@ -101,9 +102,10 @@ const Hero = () => {
                                         <span className="d-md-block">NFTs, and become</span>
                                         a financial hero
                                     </p>
-                                    <p className='fs_xxs fw-bold ff_CrimeFighter mb-0 text-end color_slate_gray_400 pt-md-4'>
+                                    <p className='fs_xxs fw-bold ff_CrimeFighter mb-0 text-end color_slate_gray_400 pt-md-4 '>
                                         explore the whitepaper
                                     </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
