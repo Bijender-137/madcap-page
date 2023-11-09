@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
-import Navline from "../assets/images/svg/line.svg";
 import { CrossIcon, DiscrodIcon, MenuIcon, TwitterIcon } from "./common/Icons";
 import { Link } from "react-router-dom";
-// import { NavLinks } from "./Helper";
-
+import { navLinks } from "./common/Helper";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -21,64 +19,20 @@ const Header = () => {
             <div className="d-flex justify-content-between align-items-center">
               <div className={`${menu ? "show-nav" : "nav-fix"}`}>
                 <div className="d-flex ps-0 mb-0 gap-2 gap-md-4 flex-column flex-md-row align-items-center navActive">
-                  <Link
-                    onClick={() => setMenu(false)}
-                    className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/"
-                  >
-                    Home
-                  </Link>
-                  <img src={Navline} alt="navline" className="d-md-none" />
-                  <Link
-                    onClick={() => setMenu(false)}
-                    className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/madcap"
-                  >
-                    MADCAP
-                  </Link>
-                  <img src={Navline} alt="navline" className="d-md-none" />
-                  <Link
-                    onClick={() => setMenu(false)}
-                    className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/tokenomics"
-                  >
-                    Tokenomics
-                  </Link>
-                  <img src={Navline} alt="navline" className="d-md-none" />
-                  <Link
-                    onClick={() => setMenu(false)}
-                    className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/roadmap" lassName="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                  >
-                    Road Map
-                  </Link>
-                  <img src={Navline} alt="navline" className="d-md-none" />
-
-                  <Link
-                    onClick={() => setMenu(false)}
-                    className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/skating"
-                  >
-                    Staking
-                  </Link>
-                  <img src={Navline} alt="navline" className="d-md-none" />
-
-                  <Link
-                    onClick={() => setMenu(false)}
-                    className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/"
-                  >
-                    NFT
-                  </Link>
-                  <img src={Navline} alt="navline" className="d-md-none" />
-
-                  <Link
-                    onClick={() => setMenu(false)}
-                    className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/"
-                  >
-                    Whitepaper
-                  </Link>
+                  {navLinks.map((navlink) => {
+                    return (
+                      <>
+                        <Link
+                          onClick={() => setMenu(false)}
+                          className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
+                          to={navlink.pathName}
+                        >
+                          {navlink.NavName}
+                        </Link>
+                        <img src={navlink.img} alt={navlink.alt} className="d-md-none" />
+                      </>
+                    )
+                  })}
                   <div className="d-md-none" onClick={() => setMenu(false)}>
                     <CrossIcon />
                   </div>
