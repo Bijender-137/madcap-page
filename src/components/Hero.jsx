@@ -33,13 +33,15 @@ const Hero = () => {
                             <h1 className='text-uppercase text-center mb-0 latter_spacing193 z-1 position-relative fs_xxxl  color_primary ff_Liberty fw-normal text-shadow'>Madcap</h1>
                         </div>
                     </div>
-                    <img src={heroMan} width={375} height={560} alt="heroman" className=' heroMan d-md-none' />
-                    <div className="d-flex justify-content-center justify-content-md-end pe-md-5 w-100 pb-5 mb-4 z-2 position-relative">
+                    <div className="d-flex justify-content-center position-relative">
+                        <img src={heroMan} alt="heroman" className=' heroMan d-md-none pt-20 manImg position-absolute' />
+                    </div>
+                    <div className="d-flex justify-content-center justify-content-md-end pe-md-5 w-100 pb-4 pb-md-5 mb-md-4 z-2 mt-250 mt-md-0 position-relative">
                         <div className="d-flex flex-column align-items-center">
                             <div className="timeBox position-relative z-3 bg_lite_dark d-flex flex-column justify-content-center align-items-center px-1">
                                 <Countdown />
                             </div>
-                            <div className="buyNowBox-black bg-black position-relative">
+                            <div className="buyNowBox-black position-relative">
                                 <div className="buyNowBox bg-white">
                                     <div className="content-rotate-0">
                                         <p className="text-center pt-4 mb-0 ff_MangaMaster fs_sm fw-bold">1 Madcap coin = $0.0025</p>
@@ -82,34 +84,48 @@ const Hero = () => {
                                     </div>
                                 </div>
                             </div>
-                            <p className='ff_MangaMaster fs_xxs text-white fw-normal pt-2 letter_spac_359'>2 Billion Tokens at 0.0025 each! Grab them in the first 48 hours
+                            <p className='ff_MangaMaster fs_xxs text-white fw-normal pt-2 letter_spac_359 px-4 px-sm-5 mx-sm-5 px-md-0 mx-md-0'>2 Billion Tokens at 0.0025 each! Grab them in the first 48 hours
                                 <span className="d-md-block">
                                     or they're toast — yes, we're burning the leftovers
                                 </span>
                                 THE LOWEST PRESALE PRICE FOR THE TOKEN
                             </p>
-                            <div className="yellowBox_content bg_primary">
-                                <p className="fs_2xs fw-bold ff_CrimeFighter line-h-14">
-                                    Join Madcap's crypto
-                                    <span className="d-block"> universe, where</span>
-                                    comics meet finance!
-                                    <span className="d-block"> Stake tokens,</span>
-                                    unlock hand-drawn
-                                    <span className="d-block">NFTs, and become</span>
-                                    a financial hero
-                                </p>
-                                <p className='fs_xxs fw-bold ff_CrimeFighter mb-0 text-end color_slate_gray_400 pt-4'>
-                                    explore the whitepaper
-                                </p>
+                            <div className="px-3 w-100 d-flex justify-content-center">
+                                <div className="yellowBox_content bg_primary">
+                                    <p className="fs_2xs fw-bold ff_CrimeFighter line-h-14">
+                                        Join Madcap's crypto
+                                        <span className="d-md-block"> universe, where</span>
+                                        comics meet finance!
+                                        <span className="d-md-block"> Stake tokens,</span>
+                                        unlock hand-drawn
+                                        <span className="d-md-block">NFTs, and become</span>
+                                        a financial hero
+                                    </p>
+                                    <p className='fs_xxs fw-bold ff_CrimeFighter mb-0 text-end color_slate_gray_400 pt-md-4'>
+                                        explore the whitepaper
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <img src={heroMan} alt="heroman" className='position-absolute heroMan d-none' />
-                        <div className="d-flex ps-3 d-none flex-column justify-content-center align-items-center riskbox_position position-absolute w-205">
-                            <div className='whiteBox bg-white'>
+                        <img src={heroMan} alt="heroman" className='position-absolute heroMan d-none d-md-block' />
+                        <div className="d-none d-md-block">
+                            <div className="d-flex ps-3 flex-column justify-content-center align-items-center riskbox_position position-absolute w-205">
+                                <div className='whiteBox bg-white'>
+                                </div>
+                                <div className="riskBox bg_primary d-flex flex-column justify-content-center align-items-center">
+                                    <p className='ff_Bright fw-normal text-black fs_xl text-center lh-32 mb-0'>Risk the dive,</p>
+                                    <p className="fs_2md ff_Bright fw-normal text-black text-center lh-32 mb-0 pe-2">to FInd the preals</p>
+                                </div>
                             </div>
-                            <div className="riskBox bg_primary d-flex flex-column justify-content-center align-items-center">
-                                <p className='ff_Bright fw-normal text-black fs_xl text-center lh-32 mb-0'>Risk the dive,</p>
-                                <p className="fs_2md ff_Bright fw-normal text-black text-center lh-32 mb-0 pe-2">to FInd the preals</p>
+                        </div>
+                        <div className="d-md-none">
+                            <div className="d-flex ps-3 flex-column justify-content-center align-items-center riskbox_mobile_view_position position-absolute w-146">
+                                <div className='whiteBox bg-white'>
+                                </div>
+                                <div className="riskBox bg_primary d-flex flex-column justify-content-center align-items-center">
+                                    <p className='ff_Bright fw-normal text-black fs_xl text-center lh-32 mb-0'>Risk the dive,</p>
+                                    <p className="fs_2md ff_Bright fw-normal text-black text-center lh-32 mb-0 pe-2">to FInd the preals</p>
+                                </div>
                             </div>
                         </div>
                     </div>
