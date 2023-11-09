@@ -65,7 +65,7 @@ const Pages = () => {
             {currentTime}
           </p>
           <p className="fs_sm ff_Poppins text-white text-center fw-normal pt-1 line-h-24">
-            {" "}
+           
             {currentDate}
           </p>
           <p className="fs_md text-white fw-normal ps-4 ff_Liberty mt-4 pt-3 line-h-24">

@@ -2,11 +2,11 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Footer from "../components/Footer";
 import Header from "./Header";
-import TokenomicsFirstImg from "../assets/images/webp/Tokenomics_1st_img.webp";
-import TokenomicsSecondImg from "../assets/images/webp/Tokenomics_2nd_img.webp";
-import TokenomicsThirdImg from "../assets/images/webp/Tokenomics_3rd_img.webp";
-import TokenomicsFOrthImg from "../assets/images/webp/Tokenomics_4th_img.webp";
-const Tokenomics = () => {
+import RoadMapFirstImg from "../assets/images/webp/Roadmap_1st_img.webp";
+import RoadMapSecondImg from "../assets/images/webp/Roadmap_2nd_img.webp";
+import RoadMapThirdImg from "../assets/images/webp/Roadmap_3rd_img.webp";
+import RoadMapFourthImg from "../assets/images/webp/Roadmap_4th_img.webp";
+const RoadMap = () => {
   return (
     <>
       <div>
@@ -18,34 +18,34 @@ const Tokenomics = () => {
 
           <div className="bg_clr_blue px-3">
             <h1 className="text-white fs_2sm ff_MangaMaster fw-bold text-center mb-0 py-2">
-              Tokenomics
+            road map
             </h1>
             <div className=" madcap_1st_img m-auto">
               <img
                 className="w-100 "
-                src={TokenomicsFirstImg}
-                alt="TokenomicsFirstImg"
+                src={RoadMapFirstImg}
+                alt="RoadMapFirstImg"
               />
             </div>
             <div className=" m-auto madcap_1st_img mt-2">
               <img
                 className="w-100"
-                src={TokenomicsSecondImg}
-                alt="TokenomicsSecondImg"
+                src={RoadMapSecondImg}
+                alt="RoadMapSecondImg"
               />
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
                 className="w-100"
-                src={TokenomicsThirdImg}
-                alt="TokenomicsThirdImg"
+                src={RoadMapThirdImg}
+                alt="RoadMapThirdImg"
               />
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
                 className="w-100"
-                src={TokenomicsFOrthImg}
-                alt="TokenomicsFOrthImg"
+                src={RoadMapFourthImg}
+                alt="RoadMapFourthImg"
               />
             </div>
             <p className="px-4 fw-bold ff_CrimeFighter fs_xsm text-white text-center pt-4 mt-2 mb-2 lh_12">
@@ -60,4 +60,4 @@ const Tokenomics = () => {
   );
 };
 
-export default Tokenomics;
+export default RoadMap;
