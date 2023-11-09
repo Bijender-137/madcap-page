@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="bg-black">
                 <p className="text-white text-center py-2 fs_xs ff_MangaMaster fw-normal ltr_sp_6 mb-0">
                     all rights reserved for the Comicoin {year}
-                    <span className="ps-5 cursor_pointer">contact us</span>
+                    <span className="ps-sm-5 ps-4 cursor_pointer">contact us</span>
                 </p>
             </div>
         </>

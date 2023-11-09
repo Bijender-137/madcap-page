@@ -349,6 +349,55 @@ body {
   }
 }
 
+@media (max-width:370px) {
+  :root {
+    --fs-xxs: 10px;
+    --fs-xs: 10px;
+    --fs-2xs: 14px;
+    --fs-sm: 24px;
+    --fs-2sm: 10px;
+    --fs-md: 10px;
+    --fs-2md: 16px;
+    --fs-3sm: 16px;
+    --fs-lg: 12px;
+    --fs-xl: 31px;
+    --fs_xxl: 14px;
+    --fs-xxxl: 78px;
+  }
+
+  .heroMan {
+    max-width: 100%;
+  }
+
+  .curveImg {
+    left: 0px;
+    top: -5px !important;
+    width: 60px !important;
+    height: 30px !important;
+  }
+
+  .text_rotate {
+    left: 10px;
+    top: 0px !important;
+  }
+
+  .timeBox {
+    width: 312px !important;
+  }
+
+  .buyNowBox-black {
+    width: 305px !important;
+    transform: rotate(-0.2deg) translate(3px, 0px) !important;
+  }
+
+  .buyNowBox {
+    width: 303px !important;
+  }
+
+  .logoBox1::before {
+    width: 280.15px !important;
+  }
+}
 
 @media (min-width:576px) {
   :root {
