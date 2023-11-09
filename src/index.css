@@ -352,12 +352,12 @@ body {
 @media (max-width:370px) {
   :root {
     --fs-xxs: 10px;
-    --fs-xs: 10px;
+    --fs-xs: 11px;
     --fs-2xs: 14px;
     --fs-sm: 24px;
     --fs-2sm: 10px;
     --fs-md: 10px;
-    --fs-2md: 16px;
+    --fs-2md: 15px;
     --fs-3sm: 16px;
     --fs-lg: 12px;
     --fs-xl: 31px;
@@ -367,6 +367,7 @@ body {
 
   .heroMan {
     max-width: 100%;
+    height: 525px !important;
   }
 
   .curveImg {
@@ -396,6 +397,11 @@ body {
 
   .logoBox1::before {
     width: 280.15px !important;
+  }
+
+  .timeBox::after {
+    top: -28px !important;
+    right: -87% !important;
   }
 }
 
