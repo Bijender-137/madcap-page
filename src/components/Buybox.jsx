@@ -14,19 +14,19 @@ const Buybox = () => {
                             <button type='button' className="logoBox me-1 position-relative d-flex justify-content-center align-items-center border-0">
                                 <p className="d-flex mb-0 z-2 position-relative justify-content-center align-items-center">
                                     <EthIcon />
-                                    <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs' >ETH</span>
+                                    <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs'>ETH</span>
                                 </p>
                             </button>
                             <button type='button' className="logoBox mx-2 position-relative d-flex justify-content-center align-items-center border-0">
                                 <p className="d-flex mb-0 z-2 position-relative justify-content-center align-items-center">
                                     <UsdtIcon />
-                                    <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs' >Usdt</span>
+                                    <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs'>Usdt</span>
                                 </p>
                             </button>
                             <button type='button' className="ms-1 logoBox position-relative d-flex justify-content-center align-items-center border-0">
                                 <p className="d-flex mb-0 z-2 position-relative justify-content-center align-items-center">
                                     <BnbIcon />
-                                    <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs' >Bnb</span>
+                                    <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs'>Bnb</span>
                                 </p>
                             </button>
                         </div>
@@ -43,7 +43,7 @@ const Buybox = () => {
                         </div>
                         <div className="d-flex justify-content-center mt-4 pb-5">
                             <button type='button' className="ms-1 logoBox1 position-relative d-flex justify-content-center align-items-center border-0">
-                                <img src={buyNow} alt="buyNow" className='z-2 position-relative justify-content-center align-items-center' />
+                                <img width="111" height="20" src={buyNow} alt="buyNow" className='z-2 position-relative justify-content-center align-items-center' />
                             </button>
                         </div>
                     </div>

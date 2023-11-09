@@ -29,7 +29,7 @@ const Header = () => {
                         >
                           {navlink.NavName}
                         </Link>
-                        <img src={navlink.img} alt={navlink.alt} className="d-md-none" />
+                        <img width="11" height="18" src={navlink.img} alt={navlink.alt} className="d-md-none" />
                       </>
                     )
                   })}
