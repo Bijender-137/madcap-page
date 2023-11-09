@@ -1,8 +1,8 @@
-import React from 'react'
-import heroMan from '../assets/images/webp/Man.webp'
-import Countdown from './Countdown'
-import Buybox from './Buybox'
-import HeroContent from './HeroContent'
+import React from "react";
+import heroMan from "../assets/images/webp/Man.webp";
+import Countdown from "./Countdown";
+import Buybox from "./Buybox";
+import HeroContent from "./HeroContent";
 
 const Hero = () => {
     return (
@@ -65,9 +65,40 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-            </div >
+            </div>
+            <img
+                src={heroMan}
+                alt="heroman"
+                className="position-absolute heroMan d-none d-md-block"
+            />
+            <div className="d-none d-md-block">
+                <div className="d-flex ps-3 flex-column justify-content-center align-items-center riskbox_position position-absolute w-205">
+                    <div className="whiteBox bg-white"></div>
+                    <div className="riskBox bg_primary d-flex flex-column justify-content-center align-items-center">
+                        <p className="ff_Bright fw-normal text-black fs_xl text-center lh-32 mb-0">
+                            Risk the dive,
+                        </p>
+                        <p className="fs_2md ff_Bright fw-normal text-black text-center lh-32 mb-0 pe-2">
+                            to FInd the preals
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="d-md-none">
+                <div className="d-flex ps-3 flex-column justify-content-center align-items-center riskbox_mobile_view_position position-absolute w-146">
+                    <div className="whiteBox bg-white"></div>
+                    <div className="riskBox bg_primary d-flex flex-column justify-content-center align-items-center">
+                        <p className="ff_Bright fw-normal text-black fs_xl text-center line-h-24 mb-0">
+                            Risk the dive,
+                        </p>
+                        <p className="fs_2md ff_Bright fw-normal text-black text-center line-h-24 mb-0 pe-2">
+                            to FInd the preals
+                        </p>
+                    </div>
+                </div>
+            </div>
         </>
-    )
-}
+    );
+};
 
-export default Hero
+export default Hero;

@@ -345,7 +345,7 @@ body {
 
   .show-nav div {
     flex-direction: column;
-    gap: 20px !important;
+    gap: 10px !important;
   }
 }
 
