@@ -6,6 +6,13 @@
     font-size: 20px;
 }
 
+.fs_xsm {
+    font-size: 6px;
+}
+
+.lh_12 {
+    line-height: 12px;
+}
 
 
 .madcap_blur_bg::after {
@@ -13,21 +20,16 @@
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 320px;
     position: absolute;
     background-position: center;
     content: "";
+    top: 20%;
+    
 }
 
 .madcap_1st_img {
-    background-image: url("./assets/images/png/madcap_1st_img.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    background-position: center;
-    max-width: 390px;
-
-
+    max-width: 440px;
 }
 
 .para {
@@ -37,47 +39,30 @@
 }
 
 .madcap_1st_img_text {
-    max-width: 106px;
-    top: 15%;
-    left: 9%;
+    max-width: 91px;
+    top: 16%;
+    left: 11%;
 }
 
-.madcap_2nd_img {
-    background-image: url("./assets/images/webp/madcap_2nd_img.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 149px;
-    background-position: center;
-    max-width: 390px;
-
-}
 
 .madcap_2nd_img_text {
-    right: 26%;
-    max-width: 84px;
-    top: 21%;
+    right: 27%;
+    max-width: 72px;
+    top: 16%;
 }
 
-.madcap_3rd_img {
-    background-image: url("./assets/images/webp/madcap_3rd_img.webp");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 290px;
-    background-position: center;
-    max-width: 390px;
 
-}
 
 .madcap_3rd_img_text {
-    top: 5%;
-    right: 24%;
+    top: 8%;
+    right: 26%;
     max-width: 80px;
 }
 
 .madcap_3rd_img_2nd_text {
-    bottom: 0%;
-    right: 9%;
-    max-width: 80px;
+    bottom: 8%;
+    right: 8%;
+    max-width: 89px;
 }
 
 
@@ -90,26 +75,27 @@
     }
 
     .madcap_1st_img_text {
-        top: 14%;
-        left: 9%;
-        max-width: 120px;
+        top: 20%;
+        left: 11%;
+        max-width: 106px;
     }
 
     .madcap_2nd_img_text {
-        right: 27%;
-    }
-
-    .madcap_3rd_img {
-        background-size: cover;
-        height: 290px;
-        max-width: 390px;
-        width: 390px;
+        right: 29%;
+        max-width: 88px;
+        top: 30%;
     }
 
     .madcap_3rd_img_text {
-        top: 7%;
-        right: 23%;
-        max-width: 91px;
+        top: 12%;
+        right: 26%;
+        max-width: 92px;
+    }
+
+    .madcap_3rd_img_2nd_text {
+        bottom: 11%;
+        right: 11%;
+        max-width: 93px;
     }
 
     .fs_12 {
