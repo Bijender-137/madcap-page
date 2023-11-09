@@ -21,12 +21,6 @@ const Header = () => {
             <div className="d-flex justify-content-between align-items-center">
               <div className={`${menu ? "show-nav" : "nav-fix"}`}>
                 <div className="d-flex ps-0 mb-0 gap-2 gap-md-4 flex-column flex-md-row align-items-center navActive">
-                  {/* {NavLinks.map((headerLinks) => {
-                    return(
-                      
-                    )
-                  })} */}
-                  
                   <Link
                     onClick={() => setMenu(false)}
                     className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
@@ -38,7 +32,7 @@ const Header = () => {
                   <Link
                     onClick={() => setMenu(false)}
                     className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/Madcap"
+                    to="/madcap"
                   >
                     MADCAP
                   </Link>
@@ -46,7 +40,7 @@ const Header = () => {
                   <Link
                     onClick={() => setMenu(false)}
                     className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/Tokenomics"
+                    to="/tokenomics"
                   >
                     Tokenomics
                   </Link>
@@ -54,7 +48,7 @@ const Header = () => {
                   <Link
                     onClick={() => setMenu(false)}
                     className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/Roadmap" lassName="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
+                    to="/roadmap" lassName="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
                   >
                     Road Map
                   </Link>
@@ -63,7 +57,7 @@ const Header = () => {
                   <Link
                     onClick={() => setMenu(false)}
                     className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/Skating"
+                    to="/skating"
                   >
                     Staking
                   </Link>

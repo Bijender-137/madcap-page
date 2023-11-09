@@ -23,10 +23,10 @@ function App() {
           <Header />
           <Routes>
             <Route exact path="/" Component={Home} />
-            <Route exact path="/Madcap" Component={Madcap} />
-            <Route exact path="/Tokenomics" Component={Tokenomics} />
-            <Route exact path="/Roadmap" Component={RoadMap} />
-            <Route exact path="/Skating" Component={Skating} />
+            <Route exact path="/madcap" Component={Madcap} />
+            <Route exact path="/tokenomics" Component={Tokenomics} />
+            <Route exact path="/roadmap" Component={RoadMap} />
+            <Route exact path="/skating" Component={Skating} />
           </Routes>
           
           <Footer />
