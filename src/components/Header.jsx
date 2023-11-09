@@ -46,7 +46,7 @@ const Header = () => {
                   <Link
                     onClick={() => setMenu(false)}
                     className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/"
+                    to="/Tokenomics"
                   >
                     Tokenomics
                   </Link>
@@ -54,7 +54,7 @@ const Header = () => {
                   <Link
                     onClick={() => setMenu(false)}
                     className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
-                    to="/" lassName="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
+                    to="/Roadmap" lassName="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
                   >
                     Road Map
                   </Link>
