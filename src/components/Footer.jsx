@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
             <div className="yellow_border w-100"></div>
-            <div className="bg_blue w-100 pt-1"></div>
+            <div className="bg_blue w-100 pt-1 d-none d-sm-block"></div>
             <div className=" bg_red text-center">
                 <h2 className="fw-normal fs_xxl letter_spa ff_Bright letter_spacing mb-0 py-2">
                     Madcap's Mission: Turning Everyday Investors into crypto heros!
