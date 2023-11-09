@@ -8,6 +8,8 @@ import Madcap from "./components/Madcap";
 import Header from "./components/Header";
 import Tokenomics from "./components/Tokenomics";
 import Pages from "./components/Pages";
+import RoadMap from "./components/RoadMap";
+import Skating from "./components/Skating";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
         <Route exact path="/Madcap" Component={Madcap} />
         <Route exact path="/Tokenomics" Component={Tokenomics} />
       </Routes>
-      <Tokenomics/>
+      <Tokenomics />
+      <RoadMap />
+      <Skating/>
     </>
   );
 }
