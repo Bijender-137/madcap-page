@@ -46,7 +46,7 @@
   --fs-2md: 16px;
   --fs-3sm: 16px;
   --fs-lg: 14px;
-  --fs-xl: 45px;
+  --fs-xl: 31px;
   --fs_xxl: 14px;
   --fs-xxxl: 88px;
 
@@ -361,7 +361,7 @@ body {
     --fs-2md: 20px;
     --fs-lg: 24px;
     --fs_xxl: 18px;
-    --fs-xl: 45px;
+    --fs-xl: 35px;
     --fs-xxxl: 100px;
   }
 

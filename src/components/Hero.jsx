@@ -82,8 +82,8 @@ const Hero = () => {
                                 <div className='whiteBox bg-white'>
                                 </div>
                                 <div className="riskBox bg_primary d-flex flex-column justify-content-center align-items-center">
-                                    <p className='ff_Bright fw-normal text-black fs_xl text-center lh-32 mb-0'>Risk the dive,</p>
-                                    <p className="fs_2md ff_Bright fw-normal text-black text-center lh-32 mb-0 pe-2">to FInd the preals</p>
+                                    <p className='ff_Bright fw-normal text-black fs_xl text-center line-h-24 mb-0'>Risk the dive,</p>
+                                    <p className="fs_2md ff_Bright fw-normal text-black text-center line-h-24 mb-0 pe-2">to FInd the preals</p>
                                 </div>
                             </div>
                         </div>

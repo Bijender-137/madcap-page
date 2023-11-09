@@ -307,14 +307,9 @@
 
     .text_rotate {
         transform: rotate(8deg);
-        left: -108px;
+        left: -100px;
         top: 28px;
     }
-
-
-
-
-
 
     .content-rotate-0 {
         transform: rotate(0.4deg);
