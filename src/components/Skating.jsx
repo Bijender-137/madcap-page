@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import Header from "./Header";
 import SkatingMan from "../assets/images/webp/skating_bg_img.webp";
 import SkatingBottomImg from "../assets/images/webp/skating_bootom_img.webp";
+import CardsImg from "../assets/images/webp/cards_img.webp";
 const Skating = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const Skating = () => {
               <div className="bg_primary bg-height"></div>
               <div className=" hero_bg position-relative ">
                 <div className="px-4 position-relative z-2 pt-5 pt-sm-0">
+                  <img width={200} className="position-absolute z-n1 card_img_position" src={CardsImg} alt="CardsImg" />
                   <img className="w-100" src={SkatingMan} alt="SkatingMan" />
                   <div className="position-absolute skating_btn">
                     <h2 className="mb-0 fw-bold fs_md ff_MangaMaster color_primary">
@@ -37,7 +39,12 @@ const Skating = () => {
                       your assets multiply. Ready to be a staking maverick?
                     </p>
                   </div>
-                  <div className="position-absolute skating_second_box_text">
+                  <div className="position-absolute nft_btn">
+                    <h2 className="mb-0 fw-bold fs_md ff_MangaMaster color_primary">
+                      NFT
+                    </h2>
+                  </div>
+                  <div className="position-absolute skating_second_box_text z-3">
                     <p className="fs_10 fw-normal ff_CrimeFighter text-black mb-0 max_w_260 mx_W_150">
                       As if staking wasn't rewarding enough, we're taking it to
                       the next level! Get your hands on unique, hand-drawn NFTs,

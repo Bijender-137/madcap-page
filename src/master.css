@@ -88,6 +88,13 @@
     left: 10%;
     top: 13%;
 }
+.nft_btn {
+    background-color: #231F20;
+    padding: 3px 6px;
+    display: inline-block;
+    left: 10%;
+    top: 33%;
+}
 
 .skating_man_img {
     max-width: 324px;
@@ -113,7 +120,10 @@
     top: 47.5%;
     left: 9%;
 }
-
+.card_img_position{
+    top: 48%;
+    left: 15%;
+}
 
 @media (min-width:576px) {
     .para {
