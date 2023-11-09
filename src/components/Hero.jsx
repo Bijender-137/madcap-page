@@ -7,8 +7,8 @@ import HeroContent from './HeroContent'
 const Hero = () => {
     return (
         <>
-            <div className="bg_blue hero_bg overflow-hidden position-relative pb-2">
-                <div className="z-100 position-relative z-3">
+            <div className="pb-2">
+                <div className="position-relative z-3">
                     <HeroContent />
                     <div className="d-flex justify-content-center position-relative">
                         <img src={heroMan} alt="heroman" className=' heroMan d-md-none pt-20 manImg position-absolute' />
