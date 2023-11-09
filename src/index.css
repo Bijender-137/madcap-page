@@ -364,6 +364,9 @@ body {
     --fs_xxl: 14px;
     --fs-xxxl: 78px;
   }
+  .d_block{
+    display: block;
+  }
 
   .heroMan {
     max-width: 100%;
