@@ -407,6 +407,17 @@ body {
     top: -28px !important;
     right: -87% !important;
   }
+  .mid_320 img {
+    object-fit: cover !important;
+    object-position: center !important;
+    height: 146px !important;
+
+  }
+  .madcap_2nd_img_text{
+    max-width: 72px !important;
+    right: 20% !important;
+    top: 16% !important;
+  }
 }
 
 @media (min-width:576px) {
