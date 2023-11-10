@@ -28,7 +28,6 @@ function App() {
             <Route exact path="/roadmap" Component={RoadMap} />
             <Route exact path="/skating" Component={Skating} />
           </Routes>
-          
           <Footer />
         </Container>
       </div>
