@@ -405,12 +405,12 @@ body {
   }
 
   .logoBox1::before {
-    width: 280.15px !important;
+    width: 250.15px !important;
   }
 
   .timeBox::after {
     top: -28px !important;
-    right: -87% !important;
+    right: -3px !important;
   }
 
   .mid_320 img {
