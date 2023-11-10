@@ -5,8 +5,10 @@ import buyNow from '../assets/images/png/Buy_now.png'
 
 const Buybox = () => {
     const [change, setChange] = useState("ETH");
-    const handleButtonClick = (newText) => {
+    const [displayIcon, setDisplayIcon] = useState(EthIcon);
+    const handleButtonClick = (newText, newIcon) => {
         setChange(newText);
+        setDisplayIcon(newIcon);
     };
 
     return (
@@ -16,19 +18,19 @@ const Buybox = () => {
                     <div className="content-rotate-0">
                         <p className="text-center pt-4 mb-0 ff_MangaMaster fs_sm fw-bold">1 Madcap coin = $0.0025</p>
                         <div className="d-flex justify-content-center gap-3 gap-sm-4 pt-3">
-                            <button onClick={() => handleButtonClick('ETH')} type='button' className="logoBox me-1 position-relative d-flex justify-content-center align-items-center border-0">
+                            <button onClick={() => handleButtonClick('ETH', EthIcon)} type='button' className="logoBox me-1 position-relative d-flex justify-content-center align-items-center border-0">
                                 <p className="d-flex mb-0 z-2 position-relative justify-content-center align-items-center">
                                     <EthIcon />
                                     <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs'>ETH</span>
                                 </p>
                             </button>
-                            <button onClick={() => handleButtonClick('USDT')} type='button' className="logoBox mx-2 position-relative d-flex justify-content-center align-items-center border-0">
+                            <button onClick={() => handleButtonClick('USDT', UsdtIcon)} type='button' className="logoBox mx-2 position-relative d-flex justify-content-center align-items-center border-0">
                                 <p className="d-flex mb-0 z-2 position-relative justify-content-center align-items-center">
                                     <UsdtIcon />
                                     <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs'>Usdt</span>
                                 </p>
                             </button>
-                            <button onClick={() => handleButtonClick('BNB')} type='button' className="ms-1 logoBox position-relative d-flex justify-content-center align-items-center border-0">
+                            <button onClick={() => handleButtonClick('BNB', BnbIcon)} type='button' className="ms-1 logoBox position-relative d-flex justify-content-center align-items-center border-0">
                                 <p className="d-flex mb-0 z-2 position-relative justify-content-center align-items-center">
                                     <BnbIcon />
                                     <span className='ps-1 mb-0 ff_Poppins text-white fw-bolder fs_xxs'>Bnb</span>
@@ -48,7 +50,7 @@ const Buybox = () => {
                                         placeholder='0'
 
                                     />
-                                    <EthIcon />
+                                    {displayIcon}
                                 </div>
                             </div>
                             <div className='d-flex flex-column'>
@@ -62,7 +64,7 @@ const Buybox = () => {
                                         placeholder='0'
 
                                     />
-                                    <EthIcon />
+                                    {displayIcon}
                                 </div>
                             </div>
                         </div>

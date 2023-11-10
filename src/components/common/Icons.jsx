@@ -168,6 +168,7 @@ export const EthIcon = () => {
 export const UsdtIcon = () => {
   return (
     <svg
+      className="groupIocn"
       width="18"
       height="17"
       viewBox="0 0 18 17"
@@ -194,7 +195,9 @@ export const UsdtIcon = () => {
     </svg>
   );
 };
-// down arrow symbol
+
+
+// DOWN ARROW
 export const DownArrow = () => {
   return (
     <svg
@@ -214,7 +217,8 @@ export const DownArrow = () => {
     </svg>
   );
 };
-// flag logo
+
+// FLAG ICON
 export const FlagIcon = () => {
   return (
     <svg
@@ -392,6 +396,7 @@ export const FlagIcon = () => {
 export const BnbIcon = () => {
   return (
     <svg
+      className="groupIocn"
       width="18"
       height="17"
       viewBox="0 0 18 17"
