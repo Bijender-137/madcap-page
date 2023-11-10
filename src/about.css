@@ -44,7 +44,6 @@
     max-width: 343px;
     width: 100%;
     height: 114px;
-    filter: drop-shadow(0px 5.1353912353515625px 5.1353912353515625px rgba(0, 0, 0, 0.25));
     transform: skew(2deg);
 }
 
@@ -157,11 +156,22 @@
 }
 
 .inputBox {
-    width: 119px;
-    height: 16.69px;
     background: #DFDFDF;
     outline: none;
     border: none;
+}
+
+.inputBox1 {
+    width: 119px;
+    height: 16.69px;
+    background: #DFDFDF;
+}
+
+.inputBox1 .groupIocn {
+    min-height: 12px;
+    max-width: 12px;
+    width: 100%;
+    height: 100%;
 }
 
 .riskBox {
@@ -226,7 +236,6 @@
         max-width: 392.857px !important;
         width: 100%;
         height: 130.311px;
-        filter: drop-shadow(0px 5.1353912353515625px 5.1353912353515625px rgba(0, 0, 0, 0.25));
         transform: skew(2deg);
     }
 
@@ -235,10 +244,12 @@
         height: 38.515px;
     }
 
-    .inputBox {
+
+    .inputBox1 {
         width: 137.372px;
         height: 16.69px;
     }
+
 
     .manImg {
         width: 385.421px;
@@ -367,4 +378,10 @@
         background-position: top;
         z-index: -1;
     }
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    opacity: 0 !important;
 }

@@ -138,7 +138,7 @@ export const DiscrodIcon = () => {
 //ETH ICON
 export const EthIcon = () => {
   return (
-    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="groupIocn" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="8.44129" cy="8.55644" r="8.34501" fill="#FFE774" />
       <g clipPath="url(#clip0_0_1)">
         <path d="M10.9577 9.78882C10.9577 9.78882 8.13322 11.2011 8.0947 11.2139C8.0947 11.2139 5.24456 9.78882 5.23172 9.78882L8.0947 13.2167L10.9577 9.78882Z" fill="#0D2F46" />
