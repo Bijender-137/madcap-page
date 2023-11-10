@@ -230,7 +230,9 @@
     background: url("./assets/images/png/text_shadow.png") no-repeat;
     background-size: 45px;
 }
-
+.active{
+    color: #C43312 !important;
+}
 
 @media (min-width:575.98px) {
     .timeBox {

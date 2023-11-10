@@ -50,7 +50,7 @@ const Countdown = () => {
                         <p className='color_dark_red ff_Badabb fw-normal mb-0 line-h-16 text-center'>{seconds} <span className="d-block mb-0 color_white_400 ff_Samaritan">seconds</span></p>
                     </div>
                 </div>
-                <p className='color_lite_white skew-0 ff_MangaMaster mb-0 pb-1 fw-bold letter_spacing_565 pt-2 mt-1 fs_2sm text-center lh-1'>48 hour flash pre-sale price: 0.0025
+                <p className='color_lite_white skew-0 ff_MangaMaster mb-0 pb-1 fw-bold letter_spacing_565 pt-2 mt-1 fs_2xs text-center lh-1'>48 hour flash pre-sale price: 0.0025
                     <span className="d-block">usd rised : $500,000 / $1,000,000</span>
                 </p>
             </div>

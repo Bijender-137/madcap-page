@@ -210,9 +210,9 @@ export const DownArrow = () => {
       <path
         d="M0.500015 0.378519L2.25002 2.11816L4.00002 0.378519"
         stroke="white"
-        stroke-width="0.581605"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="0.581605"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
@@ -228,7 +228,7 @@ export const FlagIcon = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_188_106)">
+      <g clipPath="url(#clip0_188_106)">
         <path
           d="M1.23282 3.01562C0.781415 3.66694 0.438361 4.39826 0.230347 5.18429H3.41451L1.23282 3.01562Z"
           fill="#29337A"
@@ -380,7 +380,7 @@ export const FlagIcon = () => {
         <path
           d="M13.7092 6.95858C13.7092 10.6395 10.707 13.6264 7 13.6264C3.29298 13.6264 0.290802 10.6395 0.290802 6.95858C0.290802 3.27769 3.29298 0.290802 7 0.290802C10.707 0.290802 13.7092 3.27769 13.7092 6.95858Z"
           stroke="white"
-          stroke-width="0.581605"
+          strokeWidth="0.581605"
         />
       </g>
       <defs>
