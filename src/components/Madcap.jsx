@@ -26,7 +26,7 @@ const Madcap = () => {
                 reward. I 've bet big, and I've won and lost.
               </p>
             </div>
-            <div className="madcap_1st_img m-auto position-relative mt-3">
+            <div className="madcap_1st_img m-auto position-relative mt-3 mid_320">
               <img
                 className="w-100 small_screen_text_2nd"
                 src={MadcapSecondImg}
