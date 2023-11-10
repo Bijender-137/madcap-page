@@ -25,7 +25,7 @@ const Header = () => {
           <div className="bg_secondary py-3 px-16  px-md-30">
             <div className="d-flex justify-content-between align-items-center">
               <div className={`${menu ? "show-nav" : "nav-fix"}`}>
-                <div className="d-flex ps-0 mb-0 gap-2 gap-md-3 flex-column flex-md-row align-items-center navActive">
+                <div className="d-flex ps-0 mb-0 gap-2 gap-md-3 flex-column flex-md-row align-items-center">
                   {navLinks.map((navlink) => {
                     return (
                       <>
@@ -64,16 +64,16 @@ const Header = () => {
                   <DiscrodIcon />
                 </a>
                 <div className="d-flex align-items-center justify-content-center gap-1">
-                <a href="#" className="fw-light text-white fs_10 ltr_sp_6">
-                  <FlagIcon />
-                  <span className="ps-1">En</span>
-                  <span className="ps-2">
-                    <DownArrow />
-                  </span>
-                </a>
+                  <Link className="fw-light text-white fs_10 ltr_sp_6">
+                    <FlagIcon />
+                    <span className="ps-1">En</span>
+                    <span className="ps-2">
+                      <DownArrow />
+                    </span>
+                  </Link>
+                </div>
               </div>
-              </div>
-             
+
             </div>
           </div>
         </nav>
