@@ -66,8 +66,8 @@
 }
 
 .timeContentBox {
-    width: 69.328px;
-    height: 43.651px;
+    width: 60px;
+    height: 38px;
     transform: skew(10deg);
 }
 
@@ -227,14 +227,17 @@
     left: 21%;
     width: 100%;
     height: 100%;
+    z-index: 100 !important;
     background: url("./assets/images/png/text_shadow.png") no-repeat;
-    background-size: 45px;
-}
-.active{
-    color: #C43312 !important;
 }
 
 @media (min-width:575.98px) {
+    .timeContentBox {
+        width: 69.328px;
+        height: 43.651px;
+        transform: skew(10deg);
+    }
+
     .timeBox {
         max-width: 392.857px !important;
         width: 100%;

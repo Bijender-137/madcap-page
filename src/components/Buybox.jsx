@@ -57,7 +57,7 @@ const Buybox = () => {
                                 <label htmlFor="number1" className='fs_xxs fw-blod ff_Samaritan mb-0 letter_spacing_9 color_slate_gray_500 mb-1'>Amount in MADCAP you pay</label>
                                 <div className='inputBox1 d-flex align-items-center px-1'>
                                     <input
-                                        id='number'
+                                        id='number1'
                                         name='sellcount'
                                         className='fs_xxs inputBox w-100 fw-blod ff_Samaritan letter_spacing_9 color_slate_gray_500'
                                         type="number"

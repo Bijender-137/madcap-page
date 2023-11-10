@@ -28,9 +28,8 @@ const Header = () => {
                 <div className="d-flex ps-0 mb-0 gap-2 gap-md-3 flex-column flex-md-row align-items-center">
                   {navLinks.map((navlink) => {
                     return (
-                      <>
+                      <div key={navlink.id} className="d-flex ps-0 mb-0 gap-2 gap-md-3 flex-column flex-md-row align-items-center">
                         <Link
-                          key={navlink.id}
                           onClick={() => setMenu(false)}
                           className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
                           to={navlink.pathName}
@@ -44,7 +43,7 @@ const Header = () => {
                           alt={navlink.alt}
                           className="d-md-none"
                         />
-                      </>
+                      </div>
                     );
                   })}
                   <div className="d-md-none" onClick={() => setMenu(false)}>
