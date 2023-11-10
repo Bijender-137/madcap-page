@@ -10,9 +10,9 @@ const HeroContent = () => {
             <div className="d-flex justify-content-between">
               <div className="bg_secondary bg_box_hero d-flex align-items-center justify-content-between ps-2 px-2">
                 <div className="d-flex align-items-center flex-md-column gap-1">
-                  <h2 className="ff_Badabb fs_2md color_primary mb-0">
+                  <h3 className="ff_Badabb fs_2md color_primary mb-0">
                     $0.0025
-                  </h2>
+                  </h3>
                   <p className="text-white ff_Badabb mb-0 fs_xs">
                     presale phase #1
                   </p>
