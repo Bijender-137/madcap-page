@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
-import { CrossIcon, DiscrodIcon, MenuIcon, TwitterIcon } from "./common/Icons";
+import {
+  CrossIcon,
+  DiscrodIcon,
+  DownArrow,
+  FlagIcon,
+  MenuIcon,
+  TwitterIcon,
+} from "./common/Icons";
 import { Link } from "react-router-dom";
 import { navLinks } from "./common/Helper";
 
@@ -18,7 +25,7 @@ const Header = () => {
           <div className="bg_secondary py-3 px-16  px-md-30">
             <div className="d-flex justify-content-between align-items-center">
               <div className={`${menu ? "show-nav" : "nav-fix"}`}>
-                <div className="d-flex ps-0 mb-0 gap-2 gap-md-4 flex-column flex-md-row align-items-center navActive">
+                <div className="d-flex ps-0 mb-0 gap-2 gap-md-3 flex-column flex-md-row align-items-center navActive">
                   {navLinks.map((navlink) => {
                     return (
                       <>
@@ -29,9 +36,15 @@ const Header = () => {
                         >
                           {navlink.NavName}
                         </Link>
-                        <img width="11" height="18" src={navlink.img} alt={navlink.alt} className="d-md-none" />
+                        <img
+                          width="11"
+                          height="18"
+                          src={navlink.img}
+                          alt={navlink.alt}
+                          className="d-md-none"
+                        />
                       </>
-                    )
+                    );
                   })}
                   <div className="d-md-none" onClick={() => setMenu(false)}>
                     <CrossIcon />
@@ -50,7 +63,17 @@ const Header = () => {
                 <a href="https://discord.com/" target="__" className="pb-1">
                   <DiscrodIcon />
                 </a>
+                <div className="d-flex align-items-center justify-content-center gap-1">
+                <a href="#" className="fw-light text-white fs_10 ltr_sp_6">
+                  <FlagIcon />
+                  <span className="ps-1">En</span>
+                  <span className="ps-2">
+                    <DownArrow />
+                  </span>
+                </a>
               </div>
+              </div>
+             
             </div>
           </div>
         </nav>
