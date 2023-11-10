@@ -10,12 +10,12 @@ const HeroHeader = () => {
                         first ever comic crypto
                     </h2>
                     <div className="d-flex align-items-center">
-                        <h2 className=" text-uppercase fs_md fw-normal ff_Badabb mb-0 text-after position-relative z-2 ps-2 ps-md-3">
+                        <p className=" text-uppercase fs_md fw-normal ff_Badabb mb-0 text-after position-relative z-2 ps-2 ps-md-3">
                             comic adventures
-                        </h2>
-                        <h2 className="text-white text-uppercase fw-normal fs_2sm ff_CrimeFighter mb-0 text-after1 position-relative z-2 ps-1 ps-sm-2">
+                        </p>
+                        <p className="text-white text-uppercase fw-normal fs_2sm ff_CrimeFighter mb-0 text-after1 position-relative z-2 ps-1 ps-sm-2">
                             crypto riches
-                        </h2>
+                        </p>
                     </div>
                 </div>
             </div>

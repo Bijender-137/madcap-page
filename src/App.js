@@ -17,20 +17,22 @@ import Home from "./components/Pages/Home";
 function App() {
   return (
     <>
-      <div className="bg_img_hero min_h_100 position-relative">
-        <Main />
-        <Container className="custom_container px-0 min_h_100 ">
-          <Header />
-          <Routes>
-            <Route exact path="/" Component={Home} />
-            <Route exact path="/madcap" Component={Madcap} />
-            <Route exact path="/tokenomics" Component={Tokenomics} />
-            <Route exact path="/roadmap" Component={RoadMap} />
-            <Route exact path="/skating" Component={Skating} />
-          </Routes>
-          
-          <Footer />
-        </Container>
+      <div className="bg_img_hero min_h_100">
+        <div className="max-w-1920 position-relative mx-auto">
+          <Main />
+          <Container className="custom_container min_h_100 d-flex flex-column justify-content-center align-items-center">
+            <Header />
+            <Routes>
+              <Route exact path="/" Component={Home} />
+              <Route exact path="/madcap" Component={Madcap} />
+              <Route exact path="/tokenomics" Component={Tokenomics} />
+              <Route exact path="/roadmap" Component={RoadMap} />
+              <Route exact path="/skating" Component={Skating} />
+            </Routes>
+
+            <Footer />
+          </Container>
+        </div>
       </div>
     </>
   );

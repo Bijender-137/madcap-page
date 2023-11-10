@@ -364,7 +364,8 @@ body {
     --fs_xxl: 14px;
     --fs-xxxl: 78px;
   }
-  .d_block{
+
+  .d_block {
     display: block;
   }
 
@@ -530,5 +531,11 @@ body {
 
   .mobile_img_position {
     left: 10%;
+  }
+}
+
+@media (min-width:1920px) {
+  .max-w-1920 {
+    max-width: 1920px;
   }
 }
