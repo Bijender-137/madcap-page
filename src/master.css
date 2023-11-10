@@ -43,25 +43,24 @@
     left: 11%;
 }
 
-
 .madcap_2nd_img_text {
     right: 27%;
-    max-width: 72px;
-    top: 16%;
+    max-width: 76px;
+    top: 17%;
 }
 
 
 
 .madcap_3rd_img_text {
-    top: 8%;
-    right: 26%;
-    max-width: 80px;
+    top: 5%;
+    right: 24%;
+    max-width: 77px;
 }
 
 .madcap_3rd_img_2nd_text {
-    bottom: 8%;
-    right: 8%;
-    max-width: 89px;
+    bottom: 5%;
+    right: 9%;
+    max-width: 76px;
 }
 
 /* skating */
@@ -88,8 +87,6 @@
     left: 10%;
     top: 13%;
 }
-
-
 
 .nft_btn {
     background-color: #231F20;

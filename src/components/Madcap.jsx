@@ -26,9 +26,9 @@ const Madcap = () => {
                 reward. I 've bet big, and I've won and lost.
               </p>
             </div>
-            <div className="madcap_1st_img m-auto position-relative mt-3 mid_320">
+            <div className="madcap_1st_img m-auto position-relative mt-3 mid_320 ">
               <img
-                className="w-100 small_screen_text_2nd"
+                className="w-100 small_screen_text_2nd h_146"
                 src={MadcapSecondImg}
                 alt="MadcapSecondImg"
               />
@@ -37,9 +37,9 @@ const Madcap = () => {
                 back up. T hat's how you reach the stars!
               </p>
             </div>
-            <div className="madcap_1st_img m-auto position-relative mt-2">
+            <div className="madcap_1st_img m-auto position-relative mt-2 mid_320">
               <img
-                className="w-100"
+                className="w-100 h_255"
                 src={MadcapThirdImg}
                 alt="MadcapThirdImg"
               />
@@ -52,7 +52,7 @@ const Madcap = () => {
                 bold nvestors.
               </p>
             </div>
-            <p className="fw-bold ff_CrimeFighter fs_xsm text-white text-center pt-4 mt-2 pb-2 mb-0">
+            <p className="fw-bold ff_CrimeFighter fs_xs text-white text-center pt-4 mt-2 pb-2 mb-0">
               This is a fictional comic representation. For full details,
               consult our whitepaper. Investments come with market risks.
             </p>
