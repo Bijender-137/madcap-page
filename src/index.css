@@ -417,8 +417,9 @@ body {
   }
 
   .madcap_2nd_img_text {
-    max-width: 72px !important;
-    right: 20% !important;
+    max-width: 76px !important;
+    width: 100% !important;
+    left: 53% !important;
     top: 16% !important;
   }
 }
