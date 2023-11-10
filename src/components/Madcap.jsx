@@ -55,8 +55,7 @@ const Madcap = () => {
             <p className="fw-bold ff_CrimeFighter fs_xs text-white text-center pt-4 mt-2 pb-2 mb-0">
               This is a fictional comic representation. For full details,
               consult our whitepaper. Investments come with market risks.
-            </p>
-
+            </p>c
           </div>
         </div>
       </Container>
