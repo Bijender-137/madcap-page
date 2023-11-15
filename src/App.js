@@ -28,6 +28,8 @@ function App() {
               <Route exact path="/tokenomics" Component={Tokenomics} />
               <Route exact path="/roadmap" Component={RoadMap} />
               <Route exact path="/skating" Component={Skating} />
+              <Route exact path="/nft" Component={Home} />
+              <Route exact path="/whitepaper" Component={Home} />
             </Routes>
 
             <Footer />
