@@ -71,11 +71,11 @@ const Header = () => {
                   <DiscrodIcon />
                 </a>
                 <div className="d-flex align-items-center justify-content-center gap-1">
-                  <Link className="fw-light text-white fs_10 ltr_sp_6">
+                  <Link className="fw-light text-white fs_10 ltr_sp_6 d-flex align-items-center">
                     <FlagIcon />
                     <span className="ps-2">
                       <select
-                        className="cursor_pointer bg_secondary border-0 dropdown_outline text-white"
+                        className="cursor_pointer bg_secondary border-0 dropdown_outline text-white ff_Poppins fw-light fs_xs"
                         name="dropdown"
                         id="drop"
                       >
