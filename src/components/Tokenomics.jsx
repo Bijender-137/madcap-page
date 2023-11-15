@@ -18,28 +18,28 @@ const Tokenomics = () => {
             </h1>
             <div className=" madcap_1st_img m-auto">
               <img
-                className="w-100 "
+                className="w-100 h_220"
                 src={TokenomicsFirstImg}
                 alt="TokenomicsFirstImg"
               />
             </div>
             <div className=" m-auto madcap_1st_img mt-2">
               <img
-                className="w-100"
+                className="w-100 h_120"
                 src={TokenomicsSecondImg}
                 alt="TokenomicsSecondImg"
               />
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
-                className="w-100"
+                className="w-100 h_180"
                 src={TokenomicsThirdImg}
                 alt="TokenomicsThirdImg"
               />
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
-                className="w-100"
+                className="w-100 h_130"
                 src={TokenomicsFOrthImg}
                 alt="TokenomicsFOrthImg"
               />

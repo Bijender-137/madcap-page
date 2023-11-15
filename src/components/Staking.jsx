@@ -22,7 +22,7 @@ const Staking = () => {
             <div className="bg_primary bg-height"></div>
             <div className="hero_bg position-relative ">
               <div className="px-4 position-relative z-2 pt-5 pt-sm-0">
-                <img
+                <img loading="lazy"
                   className="position-absolute z-n1 card_img_position"
                   src={CardsImg}
                   alt="CardsImg"
