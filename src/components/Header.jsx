@@ -18,6 +18,19 @@ const Header = () => {
   } else {
     document.body.classList.remove("overflow-hidden");
   }
+  const [isOpen, setIsOpen] = useState(false);
+
+  const options = ["Option 1", "Option 2", "Option 3"];
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleOptionClick = (option) => {
+    console.log(`Selected: ${option}`);
+
+    setIsOpen(false);
+  };
   return (
     <>
       <Container className="custom_container px-0">
@@ -28,7 +41,10 @@ const Header = () => {
                 <div className="d-flex ps-0 mb-0 gap-2 gap-md-3 flex-column flex-md-row align-items-center">
                   {navLinks.map((navlink) => {
                     return (
-                      <div key={navlink.id} className="d-flex ps-0 mb-0 gap-2 gap-md-3 flex-column flex-md-row align-items-center">
+                      <div
+                        key={navlink.id}
+                        className="d-flex ps-0 mb-0 gap-2 gap-md-3 flex-column flex-md-row align-items-center"
+                      >
                         <Link
                           onClick={() => setMenu(false)}
                           className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
@@ -68,12 +84,31 @@ const Header = () => {
                     <FlagIcon />
                     <span className="ps-1">En</span>
                     <span className="ps-2">
-                      <DownArrow />
+                      {/* <DownArrow /> */}
+                      <div className="custom-dropdown d-flex">
+                        <div
+                          className="dropdown-header"
+                          onClick={toggleDropdown}
+                        >
+                          <DownArrow />
+                        </div>
+                        {isOpen && (
+                          <ul className="dropdown-options">
+                            {options.map((option) => (
+                              <li
+                                key={option}
+                                onClick={() => handleOptionClick(option)}
+                              >
+                                {option}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
                     </span>
                   </Link>
                 </div>
               </div>
-
             </div>
           </div>
         </nav>
