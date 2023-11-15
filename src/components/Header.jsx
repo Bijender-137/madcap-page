@@ -1,18 +1,12 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
-import {
-  CrossIcon,
-  DiscrodIcon,
-  DownArrow,
-  FlagIcon,
-  MenuIcon,
-  TwitterIcon,
-} from "./common/Icons";
-import { Link } from "react-router-dom";
+import { CrossIcon, DiscrodIcon, DownArrow, FlagIcon, MenuIcon, TwitterIcon} from "./common/Icons";
+import { Link, useLocation } from "react-router-dom";
 import { navLinks } from "./common/Helper";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
+  const location = useLocation();
   if (menu === true) {
     document.body.classList.add("overflow-hidden");
   } else {
@@ -47,7 +41,7 @@ const Header = () => {
                       >
                         <Link
                           onClick={() => setMenu(false)}
-                          className="text-white text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0"
+                          className={`text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0 ${location.pathname === navlink.pathName ? "active-link" : "text-white"}`}
                           to={navlink.pathName}
                         >
                           {navlink.NavName}

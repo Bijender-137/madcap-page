@@ -40,14 +40,14 @@ export const navLinks = [
         id: 6,
         img: NavLine,
         NavName: "Nft",
-        pathName: "/",
+        pathName: "/nft",
         alt: "navLine",
     },
     {
         id: 7,
         img: "",
         NavName: "WHITEPAPER",
-        pathName: "/",
+        pathName: "/whitepaper",
         alt: "",
     },
 

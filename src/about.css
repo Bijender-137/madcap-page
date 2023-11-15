@@ -76,6 +76,10 @@
     transform: skew(-5deg);
 }
 
+.active-link {
+    color: var(--primary-color) !important;
+}
+
 .line-h-16 {
     line-height: 16px;
 }
@@ -114,14 +118,14 @@
 
 .buyNowBox-black {
     width: 320px;
-    height: 273px;
+    height: 246px;
     background-color: hsl(0, 0%, 19%) !important;
     transform: rotate(-0.2deg) translate(3px, -1px);
 }
 
 .buyNowBox {
     width: 315px;
-    height: 267px;
+    height: 240px;
 }
 
 .logoBox::before {

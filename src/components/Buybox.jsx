@@ -16,7 +16,7 @@ const Buybox = () => {
             <div className="buyNowBox-black position-relative">
                 <div className="buyNowBox bg-white">
                     <div className="content-rotate-0">
-                        <p className="text-center pt-4 mb-0 ff_MangaMaster fs_sm fw-bold">1 Madcap coin = $0.0025</p>
+                        <p className="text-center pt-2 pt-sm-4 mb-0 ff_MangaMaster fs_3xs fw-bold">1 Madcap coin = $0.0025</p>
                         <div className="d-flex justify-content-center gap-3 gap-sm-4 pt-3">
                             <button onClick={() => handleButtonClick('ETH', EthIcon)} type='button' className="logoBox me-1 position-relative d-flex justify-content-center align-items-center border-0">
                                 <p className="d-flex mb-0 z-2 position-relative justify-content-center align-items-center">
@@ -37,7 +37,7 @@ const Buybox = () => {
                                 </p>
                             </button>
                         </div>
-                        <p className='text-center fs_xxs fw-blod ff_Samaritan pt-4 mt-3 mb-0 letter_spacing_9 color_slate_gray_500'>{change} balance 0</p>
+                        <p className='text-center fs_xxs fw-blod ff_Samaritan pt-3 pt-sm-4 mt-3 mb-0 letter_spacing_9 color_slate_gray_500'>{change} balance 0</p>
                         <div className="d-flex pt-1 justify-content-center gap-2 w-100">
                             <div className='d-flex flex-column mb-0'>
                                 <label htmlFor="number" className='fs_xxs fw-blod ff_Samaritan mb-0 letter_spacing_9 color_slate_gray_500 mb-1'>Amount in {change} you pay</label>
