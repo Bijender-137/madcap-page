@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
-import {
-  CrossIcon,
-  DiscrodIcon,
-  FlagIcon,
-  MenuIcon,
-  TwitterIcon,
-} from "./common/Icons";
+import { CrossIcon, DiscrodIcon, DownArrow, FlagIcon, MenuIcon, TwitterIcon} from "./common/Icons";
 import { Link, useLocation } from "react-router-dom";
 import { navLinks } from "./common/Helper";
 
@@ -18,6 +12,19 @@ const Header = () => {
   } else {
     document.body.classList.remove("overflow-hidden");
   }
+  const [isOpen, setIsOpen] = useState(false);
+
+  const options = ["Option 1", "Option 2", "Option 3"];
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleOptionClick = (option) => {
+    console.log(`Selected: ${option}`);
+
+    setIsOpen(false);
+  };
   return (
     <>
       <Container className="custom_container px-0">
@@ -34,11 +41,7 @@ const Header = () => {
                       >
                         <Link
                           onClick={() => setMenu(false)}
-                          className={`text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0 ${
-                            location.pathname === navlink.pathName
-                              ? "active-link"
-                              : "text-white"
-                          }`}
+                          className={`text-decoration-none navbtn fw-bold fs_sm ff_MangaMaster text-uppercase mb-0 ${location.pathname === navlink.pathName ? "active-link" : "text-white"}`}
                           to={navlink.pathName}
                         >
                           {navlink.NavName}
@@ -73,15 +76,29 @@ const Header = () => {
                 <div className="d-flex align-items-center justify-content-center gap-1">
                   <Link className="fw-light text-white fs_10 ltr_sp_6">
                     <FlagIcon />
+                    <span className="ps-1">En</span>
                     <span className="ps-2">
-                      <select
-                        className="cursor_pointer bg_secondary border-0 dropdown_outline text-white"
-                        name="dropdown"
-                        id="drop"
-                      >
-                        <option className="cursor_pointer">En</option>
-                        <option className="cursor_pointer">Hindi</option>
-                      </select>
+                      {/* <DownArrow /> */}
+                      <div className="custom-dropdown d-flex">
+                        <div
+                          className="dropdown-header"
+                          onClick={toggleDropdown}
+                        >
+                          <DownArrow />
+                        </div>
+                        {isOpen && (
+                          <ul className="dropdown-options">
+                            {options.map((option) => (
+                              <li
+                                key={option}
+                                onClick={() => handleOptionClick(option)}
+                              >
+                                {option}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
                     </span>
                   </Link>
                 </div>
