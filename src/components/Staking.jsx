@@ -8,8 +8,8 @@ const Staking = () => {
   return (
     <>
       <Container className="custom_container">
-        <div className="position-relative">
-          <div className="pt-2 bg_clr_blue pb-3">
+        <div className=" bg_clr_blue position-relative hero_bg1">
+          <div className="position-relative z-2 pt-2 pb-3">
             <div className="bg_primary bg-height"></div>
             <div className="text-center bg_clr_brown py-1">
               <h1 className="text-white mb-0 fw-bold fs_md ff_MangaMaster">
@@ -28,7 +28,14 @@ const Staking = () => {
                   src={CardsImg}
                   alt="CardsImg"
                 />
-                <img loading="lazy" className="w-100" src={SkatingMan} alt="SkatingMan" />
+                <img
+                  width={752}
+                  height={867}
+                  loading="lazy"
+                  className="w-100 h-100"
+                  src={SkatingMan}
+                  alt="SkatingMan"
+                />
                 <div className="position-absolute skating_btn">
                   <h2 className="mb-0 fw-bold fs_md ff_MangaMaster color_primary">
                     staking
@@ -60,7 +67,14 @@ const Staking = () => {
               </div>
               <div className="position-absolute bottom-0 z-3">
                 <div className="position-relative">
-                  <img loading="lazy" className="w-100" src={SkatingBottomImg} alt="bottom" />
+                  <img
+                    width={800}
+                    height={195}
+                    loading="lazy"
+                    className="w-100 h-100"
+                    src={SkatingBottomImg}
+                    alt="bottom"
+                  />
                   <p className="mb-0 position-absolute fs_10 fw-normal skating_bottom_img_first_text ff_MangaMaster">
                     this looks amazing. anything else in the piplines? other
                     utilities?

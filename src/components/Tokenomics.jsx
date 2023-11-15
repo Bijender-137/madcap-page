@@ -5,11 +5,10 @@ import TokenomicsSecondImg from "../assets/images/webp/Tokenomics_2nd_img.webp";
 import TokenomicsThirdImg from "../assets/images/webp/Tokenomics_3rd_img.webp";
 import TokenomicsFOrthImg from "../assets/images/webp/Tokenomics_4th_img.webp";
 const Tokenomics = () => {
-
   return (
     <>
       <Container className="custom_container px-0 position-relative ">
-        <div className="madcap_blu r_bg"></div>
+        <div className="madcap_blur_bg"></div>
         <div className="yellow_border w-100"></div>
         <div className="hero_bg1 bg_clr_blue position-relative">
           <div className="z-2 position-relative px-3 ">
@@ -18,32 +17,40 @@ const Tokenomics = () => {
             </h1>
             <div className=" madcap_1st_img m-auto">
               <img
+                width={440}
+                height={240}
                 loading="lazy"
-                className="w-100 h_220"
+                className="w-100 h_220 h-100"
                 src={TokenomicsFirstImg}
                 alt="TokenomicsFirstImg"
               />
             </div>
             <div className=" m-auto madcap_1st_img mt-2">
               <img
+                width={440}
+                height={117}
                 loading="lazy"
-                className="w-100 h_120"
+                className="w-100 h_120 h-100"
                 src={TokenomicsSecondImg}
                 alt="TokenomicsSecondImg"
               />
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
+                width={440}
+                height={200}
                 loading="lazy"
-                className="w-100 h_180"
+                className="w-100 h_180 h-100"
                 src={TokenomicsThirdImg}
                 alt="TokenomicsThirdImg"
               />
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
+                width={440}
+                height={139}
                 loading="lazy"
-                className="w-100 h_130"
+                className="w-100 h_130 h-100"
                 src={TokenomicsFOrthImg}
                 alt="TokenomicsFOrthImg"
               />
@@ -55,7 +62,6 @@ const Tokenomics = () => {
           </div>
         </div>
       </Container>
-
     </>
   );
 };
