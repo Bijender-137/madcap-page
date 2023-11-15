@@ -17,32 +17,40 @@ const RoadMap = () => {
             </h1>
             <div className="madcap_1st_img m-auto">
               <img
+                height={254}
+                width={440}
                 loading="lazy"
-                className="w-100 "
+                className="w-100 h-100"
                 src={RoadMapFirstImg}
                 alt="RoadMapFirstImg"
               />
             </div>
             <div className="m-auto madcap_1st_img mt-2">
               <img
+                height={156}
+                width={440}
                 loading="lazy"
-                className="w-100"
+                className="w-100 h-100"
                 src={RoadMapSecondImg}
                 alt="RoadMapSecondImg"
               />
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
+                height={175}
+                width={440}
                 loading="lazy"
-                className="w-100"
+                className="w-100 h-100"
                 src={RoadMapThirdImg}
                 alt="RoadMapThirdImg"
               />
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
+                width={440}
+                height={169}
                 loading="lazy"
-                className="w-100"
+                className="w-100 h-100"
                 src={RoadMapFourthImg}
                 alt="RoadMapFourthImg"
               />
