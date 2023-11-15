@@ -80,7 +80,7 @@ const Header = () => {
                         id="drop"
                       >
                         <option className="cursor_pointer">En</option>
-                        <option className="cursor_pointer">Hindi</option>
+                        <option className="cursor_pointer">Hin</option>
                       </select>
                     </span>
                   </Link>
