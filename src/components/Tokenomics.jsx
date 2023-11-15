@@ -18,6 +18,7 @@ const Tokenomics = () => {
             </h1>
             <div className=" madcap_1st_img m-auto">
               <img
+                loading="lazy"
                 className="w-100 h_220"
                 src={TokenomicsFirstImg}
                 alt="TokenomicsFirstImg"
@@ -25,6 +26,7 @@ const Tokenomics = () => {
             </div>
             <div className=" m-auto madcap_1st_img mt-2">
               <img
+                loading="lazy"
                 className="w-100 h_120"
                 src={TokenomicsSecondImg}
                 alt="TokenomicsSecondImg"
@@ -32,6 +34,7 @@ const Tokenomics = () => {
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
+                loading="lazy"
                 className="w-100 h_180"
                 src={TokenomicsThirdImg}
                 alt="TokenomicsThirdImg"
@@ -39,6 +42,7 @@ const Tokenomics = () => {
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
+                loading="lazy"
                 className="w-100 h_130"
                 src={TokenomicsFOrthImg}
                 alt="TokenomicsFOrthImg"

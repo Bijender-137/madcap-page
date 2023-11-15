@@ -15,6 +15,7 @@ const Madcap = () => {
             </h1>
             <div className="position-relative madcap_1st_img m-auto">
               <img
+                loading="lazy"
                 className="w-100 "
                 src={MadcapFirstImg}
                 alt="MadcapFirstImg"
@@ -26,6 +27,7 @@ const Madcap = () => {
             </div>
             <div className="madcap_1st_img m-auto position-relative mt-3 mid_320 ">
               <img
+                loading="lazy"
                 className="w-100 small_screen_text_2nd h_146"
                 src={MadcapSecondImg}
                 alt="MadcapSecondImg"
@@ -37,6 +39,7 @@ const Madcap = () => {
             </div>
             <div className="madcap_1st_img m-auto position-relative mt-2 mid_320">
               <img
+                loading="lazy"
                 className="w-100 h_255"
                 src={MadcapThirdImg}
                 alt="MadcapThirdImg"

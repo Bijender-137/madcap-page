@@ -70,7 +70,7 @@ const Buybox = () => {
                         </div>
                         <div className="d-flex justify-content-center mt-4 pb-5">
                             <button type='button' className="ms-1 logoBox1 position-relative d-flex justify-content-center align-items-center border-0">
-                                <img width="111" height="20" src={buyNow} alt="buyNow" className='z-2 position-relative justify-content-center align-items-center' />
+                                <img width="111" height="20" loading='lazy' src={buyNow} alt="buyNow" className='z-2 position-relative justify-content-center align-items-center' />
                             </button>
                         </div>
                     </div>

@@ -17,6 +17,7 @@ const RoadMap = () => {
             </h1>
             <div className="madcap_1st_img m-auto">
               <img
+                loading="lazy"
                 className="w-100 "
                 src={RoadMapFirstImg}
                 alt="RoadMapFirstImg"
@@ -24,6 +25,7 @@ const RoadMap = () => {
             </div>
             <div className="m-auto madcap_1st_img mt-2">
               <img
+                loading="lazy"
                 className="w-100"
                 src={RoadMapSecondImg}
                 alt="RoadMapSecondImg"
@@ -31,6 +33,7 @@ const RoadMap = () => {
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
+                loading="lazy"
                 className="w-100"
                 src={RoadMapThirdImg}
                 alt="RoadMapThirdImg"
@@ -38,6 +41,7 @@ const RoadMap = () => {
             </div>
             <div className="madcap_1st_img m-auto mt-3 pt-1">
               <img
+                loading="lazy"
                 className="w-100"
                 src={RoadMapFourthImg}
                 alt="RoadMapFourthImg"

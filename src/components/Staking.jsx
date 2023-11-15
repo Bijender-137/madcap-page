@@ -22,12 +22,13 @@ const Staking = () => {
             <div className="bg_primary bg-height"></div>
             <div className="hero_bg position-relative ">
               <div className="px-4 position-relative z-2 pt-5 pt-sm-0">
-                <img loading="lazy"
+                <img
+                  loading="lazy"
                   className="position-absolute z-n1 card_img_position"
                   src={CardsImg}
                   alt="CardsImg"
                 />
-                <img className="w-100" src={SkatingMan} alt="SkatingMan" />
+                <img loading="lazy" className="w-100" src={SkatingMan} alt="SkatingMan" />
                 <div className="position-absolute skating_btn">
                   <h2 className="mb-0 fw-bold fs_md ff_MangaMaster color_primary">
                     staking
@@ -59,7 +60,7 @@ const Staking = () => {
               </div>
               <div className="position-absolute bottom-0 z-3">
                 <div className="position-relative">
-                  <img className="w-100" src={SkatingBottomImg} alt="bottom" />
+                  <img loading="lazy" className="w-100" src={SkatingBottomImg} alt="bottom" />
                   <p className="mb-0 position-absolute fs_10 fw-normal skating_bottom_img_first_text ff_MangaMaster">
                     this looks amazing. anything else in the piplines? other
                     utilities?

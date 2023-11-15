@@ -28,6 +28,7 @@ const HeroContent = () => {
         </div>
         <div className="position-relative pe-md-4 pt-md-3">
           <img
+            loading="lazy"
             src={circleCruve}
             alt="circleCruve"
             className="curveImg position-absolute"

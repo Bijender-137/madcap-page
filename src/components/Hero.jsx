@@ -11,7 +11,7 @@ const Hero = () => {
                 <div className="position-relative z-3">
                     <HeroContent />
                     <div className="d-flex justify-content-center position-relative">
-                        <img src={heroMan} alt="heroman" className='heroMan d-md-none pt-20 manImg position-absolute'/>
+                        <img loading="lazy" src={heroMan} alt="heroman" className='heroMan d-md-none pt-20 manImg position-absolute'/>
                     </div>
                     <div className="d-flex justify-content-center justify-content-md-end pe-md-5 w-100 pb-4 pb-md-5 mb-md-4 z-2 mt-250 mt-md-0 position-relative">
                         <div className="d-flex flex-column align-items-center">

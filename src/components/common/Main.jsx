@@ -67,6 +67,7 @@ const Main = () => {
             <img
                 className="position-absolute coffee_img coffee_img_set top-50 translate-middle-y d-none d-xl-block"
                 src={CoffeeImg}
+                loading="lazy"
                 alt="coffee_img"
             />
         </>
