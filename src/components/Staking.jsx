@@ -4,7 +4,7 @@ import SkatingMan from "../assets/images/webp/skating_bg_img.webp";
 import SkatingBottomImg from "../assets/images/webp/skating_bootom_img.webp";
 import CardsImg from "../assets/images/webp/cards_img.webp";
 
-const Skating = () => {
+const Staking = () => {
   return (
     <>
       <Container className="custom_container">
@@ -35,10 +35,10 @@ const Skating = () => {
                 </div>
                 <div className="position-absolute first_box_text">
                   <p className="fs_10 fw-normal ff_CrimeFighter text-black mb-0 mx_204 mx_W_150">
-                    Unlock insane rewards when you stake your Madcap Coins!
-                    With a jaw-dropping 100% APY for our staking program your
-                    fortune maybe just A click away. You can stake and watch
-                    your assets multiply. Ready to be a staking maverick?
+                    Unlock insane rewards when you stake your Madcap Coins! With
+                    a jaw-dropping 100% APY for our staking program your fortune
+                    maybe just A click away. You can stake and watch your assets
+                    multiply. Ready to be a staking maverick?
                   </p>
                 </div>
                 <div className="position-absolute nft_btn">
@@ -51,19 +51,15 @@ const Skating = () => {
                     As if staking wasn't rewarding enough, we're taking it to
                     the next level! Get your hands on unique, hand-drawn NFTs,
                     created by a lineup of incredible artists from around the
-                    globe. But wait, there's more: high holders and stakers
-                    will receive new NFTs on a weekly basis, expanding the
-                    Madcap Universe one NFT at a time.
+                    globe. But wait, there's more: high holders and stakers will
+                    receive new NFTs on a weekly basis, expanding the Madcap
+                    Universe one NFT at a time.
                   </p>
                 </div>
               </div>
               <div className="position-absolute bottom-0 z-3">
                 <div className="position-relative">
-                  <img
-                    className="w-100"
-                    src={SkatingBottomImg}
-                    alt="bottom"
-                  />
+                  <img className="w-100" src={SkatingBottomImg} alt="bottom" />
                   <p className="mb-0 position-absolute fs_10 fw-normal skating_bottom_img_first_text ff_MangaMaster">
                     this looks amazing. anything else in the piplines? other
                     utilities?
@@ -82,4 +78,4 @@ const Skating = () => {
   );
 };
 
-export default Skating;
+export default Staking;

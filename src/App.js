@@ -8,7 +8,7 @@ import Madcap from "./components/Madcap";
 import Header from "./components/Header";
 import Tokenomics from "./components/Tokenomics";
 import RoadMap from "./components/RoadMap";
-import Skating from "./components/Skating";
+import Skating from "./components/Staking";
 import Main from "./components/common/Main";
 import { Container } from "react-bootstrap";
 import Footer from "./components/Footer";

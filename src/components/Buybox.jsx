@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { BnbIcon, EthIcon, UsdtIcon } from './common/Icons'
-import buyNow from '../assets/images/png/Buy_now.png'
+import buyNow from '../assets/images/webp/Buy_now.webp'
 
 
 const Buybox = () => {
@@ -54,7 +54,7 @@ const Buybox = () => {
                                 </div>
                             </div>
                             <div className='d-flex flex-column'>
-                                <label htmlFor="number1" className='fs_xxs fw-blod ff_Samaritan mb-0 letter_spacing_9 color_slate_gray_500 mb-1'>Amount in ETH you pay</label>
+                                <label htmlFor="number1" className='fs_xxs fw-blod ff_Samaritan mb-0 letter_spacing_9 color_slate_gray_500 mb-1'>Amount in MADCAP you pay</label>
                                 <div className='inputBox1 d-flex align-items-center px-1'>
                                     <input
                                         id='number1'
