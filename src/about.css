@@ -76,6 +76,10 @@
     transform: skew(-5deg);
 }
 
+.active-link {
+    color: var(--primary-color) !important;
+}
+
 .line-h-16 {
     line-height: 16px;
 }
