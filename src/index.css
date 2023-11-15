@@ -40,6 +40,7 @@
   --fs-xxs: 10px;
   --fs-xs: 10px;
   --fs-2xs: 14px;
+  --fs-3xs: 14px;
   --fs-sm: 24px;
   --fs-2sm: 11px;
   --fs-md: 12px;
@@ -305,6 +306,10 @@ body {
   line-height: 24px;
 }
 
+.fs_3xs {
+  font-size: var(--fs-3xs);
+}
+
 @media (max-width:767.98px) {
   .nav-fix {
     position: fixed;
@@ -394,16 +399,16 @@ body {
   }
 
   .timeBox {
-    width: 312px !important;
+    width: 302px !important;
   }
 
   .buyNowBox-black {
-    width: 305px !important;
+    width: 290px !important;
     transform: rotate(-0.2deg) translate(3px, 0px) !important;
   }
 
   .buyNowBox {
-    width: 303px !important;
+    width: 285px !important;
   }
 
   .logoBox1::before {
@@ -438,6 +443,7 @@ body {
     right: 21% !important;
     max-width: 80px !important;
   }
+
   .madcap_3rd_img_2nd_text {
     bottom: 5% !important;
     right: 3% !important;
@@ -453,6 +459,7 @@ body {
   :root {
     --fs-xs: 12px;
     --fs-2xs: 14px;
+    --fs-3xs: 13px;
     --fs-sm: 16px;
     --fs-2sm: 18px;
     --fs-3sm: 18px;
