@@ -138,6 +138,10 @@
     top: 8%;
     right: 7%;
 }
+.dropdown_outline{
+    outline: none !important;
+
+}
 
 @media (min-width:576px) {
     .para {
