@@ -17,7 +17,7 @@ import Home from "./components/Pages/Home";
 function App() {
   return (
     <>
-      <div className="bg_img_hero min_h_100 min-vh-100">
+      <div className="bg_img_hero min_h_100">
         <div className="max-w-1920 position-relative mx-auto">
           <Main />
           <Container className="custom_container min_h_100 d-flex flex-column justify-content-center align-items-center">
